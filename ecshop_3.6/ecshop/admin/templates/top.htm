@@ -192,7 +192,7 @@ var adminId = "{$admin_id}";
 <div id="header-div">
   <div id="logo-div" style="bgcolor:#000000;"><img src="images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" />
     {if $http_host=='localhost' or !$single_url}
-    <span class="noauthorize-icon"><a href="javascript:;"></a></span>
+    <!--<span class="noauthorize-icon"><a href="javascript:;"></a></span>-->
     <!--<span class="noauthorize"><a href="javascript:;">[未授权用户]</a></span>-->
     {else}
     <span class="{if $authorization}authorize{else}noauthorize{/if}-icon"><a href="{$single_url}" target="blank"></a></span>
@@ -423,11 +423,13 @@ var adminId = "{$admin_id}";
     <li><a href="index.php?act=main" target="main-frame">{$lang.admin_home}</a></li>
     <li><a href="privilege.php?act=modif" target="main-frame">{$lang.set_navigator}</a></li>
     {foreach from=$nav_list item=item key=key}
-    <li><a href="{$key}" target="main-frame">{$item}</a></li>
+      {if @!in_array($item, ["服务市场", "店铺二维码"])}
+      <li><a href="{$key}" target="main-frame">{$item}</a></li>
+      {/if}
     {/foreach}
     <!--授权按钮-->
     {if $yunqi_login!=1}
-      <li class="btn-bind"><span href="javascript:void(0);" onclick="yunqiLogin();"></span></li>
+      <!--<li class="btn-bind"><span href="javascript:void(0);" onclick="yunqiLogin();"></span></li>-->
     {else}
       {if $certi.use_yunqi_authority!=1}
       <!--去认证-->
