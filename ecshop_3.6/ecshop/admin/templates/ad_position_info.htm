@@ -70,12 +70,14 @@ function validate()
     validator.isNumber("ad_height",       ad_height_number, true);
     validator.required("position_style",  empty_position_style);
 
-    if (document.forms['theForm'].elements['ad_width'].value > 1024 || document.forms['theForm'].elements['ad_width'].value == 0)
+//    if (document.forms['theForm'].elements['ad_width'].value > 1024 || document.forms['theForm'].elements['ad_width'].value == 0)
+    if (document.forms['theForm'].elements['ad_width'].value > 1200 || document.forms['theForm'].elements['ad_width'].value == 0)
     {
         alert(width_value);
         return false;
     }
-    if (document.forms['theForm'].elements['ad_height'].value > 1024 || document.forms['theForm'].elements['ad_height'].value == 0)
+//    if (document.forms['theForm'].elements['ad_height'].value > 1024 || document.forms['theForm'].elements['ad_height'].value == 0)
+    if (document.forms['theForm'].elements['ad_height'].value > 1200 || document.forms['theForm'].elements['ad_height'].value == 0)
     {
         alert(height_value);
         return false;
