@@ -3095,28 +3095,105 @@ h3.border span,
 #mainNav.xhyNav .m_left ul li a:hover {
   background: #f647a2;
 }
-#searchForm {
-  position: absolute;
-  left: 400px;
+.nav-menu {
+  height: 174px;
 }
-#searchForm table {
+.nav-menu .logo {
+  margin-top: 5px;
+  margin-top: 40px;
+}
+.nav-menu .head-top-adver {
+  margin-left: 3px;
+  margin-top: 5px;
+  float: left;
+  border: 3px solid #f647a2;
+}
+.nav-menu .head-top-adver img {
+  width: 362px;
+  height: 156px;
+}
+.nav-menu .serach-box {
+  width: 594px;
+  float: right;
+  right: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 160px;
+  margin-top: 5px;
+}
+.nav-menu .serach-box #searchForm {
+  position: absolute;
+  width: 594px;
+  float: right;
+  margin-top: 5px;
+}
+.nav-menu .serach-box #searchForm table {
   width: 554px;
   height: 34px;
   line-height: 34px;
-  padding: 3px;
+  padding: 4px;
   background: #eee;
 }
-#searchForm table tr td:first-child {
+.nav-menu .serach-box #searchForm table tr td:first-child {
   width: 440px;
   background: #fff;
   border: 1px solid #e4e4e4;
   border-right: 0;
 }
-#searchForm table tr td input#keyword {
+.nav-menu .serach-box #searchForm table tr td input#keyword {
   width: 440px;
 }
-#searchForm table tr td input.go {
+.nav-menu .serach-box #searchForm table tr td input.go {
   width: 100px;
   background: url('images/sb.png');
   border-left: 3px solid #eee;
+}
+.index-body {
+  background: #fff;
+  margin-top: 0px;
+}
+.index-body .body-goods .goods-title {
+  color: #fff;
+  background: #f647a2;
+  padding: 10px 0 10px;
+  margin-top: 15px;
+  text-indent: 24px;
+}
+.index-cat {
+  height: 360px;
+  padding: 0;
+}
+.index-cat .cat-box .cat2-box {
+  height: 298px;
+}
+.index-cat .cat-box:hover .cat2-box {
+  width: 909px;
+}
+.index-banner {
+  height: 360px;
+}
+.foot-body {
+  background: #fff;
+}
+.indexpage .goods-wrap {
+  height: 430px;
+}
+.indexpage .goods-wrap .horizontal_goods .goodsItem {
+  width: 290px;
+  margin: 0px 0px 0px 13px;
+  height: 440px;
+}
+.indexpage .goods-wrap .horizontal_goods .goodsItem:first-child {
+  margin-left: 0;
+}
+.indexpage .goods-wrap .horizontal_goods .goodsItem .img-box {
+  width: 100%;
+  height: 380px;
+}
+.indexpage .goods-wrap .horizontal_goods .goodsItem .img-box img {
+  width: 290px;
+  height: 380px;
+  max-width: none;
+  max-height: none;
 }
