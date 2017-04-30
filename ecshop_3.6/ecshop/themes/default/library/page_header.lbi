@@ -4,7 +4,7 @@
     var process_request = "{$lang.process_request}";
 </script>
 <div class="top-bar">
-    <!--<div class="fd_top fd_top1">
+    <div class="fd_top fd_top1">
         <div class="bar-left">
             <div class="top_menu1">
                 {insert_scripts files='transport.js,utils.js'}
@@ -12,18 +12,25 @@
         </div>
         <div class="bar-cart">
             <div class="fl cart-yh">
-                &lt;!&ndash;<a href="user.php" class="">用户中心</a>&ndash;&gt;
+                <!--<a href="user.php" class="">用户中心</a>-->
             </div>
-            &lt;!&ndash; #BeginLibraryItem "/library/cart.lbi" &ndash;&gt; {insert_scripts files='transport.js'}
-            &lt;!&ndash;<div class="cart" id="ECS_CARTINFO"> {insert name='cart_info'} </div>&ndash;&gt;
+            <!-- #BeginLibraryItem "/library/cart.lbi" --> {insert_scripts files='transport.js'}
+            <!--<div class="cart" id="ECS_CARTINFO"> {insert name='cart_info'} </div>-->
         </div>
-    </div>-->
+    </div>
 </div>
 <div class="nav-menu">
     <div class="wrap">
         <div class="logo"><a href="../index.php" name="top"><img src="../images/logo.gif" /></a></div>
 
+        <div class="head-top-adver"><a href="../index.php" name="top"><img src="../images/wechart.jpg" /></a></div>
+
         <div class="serach-box">
+
+            <div>
+                <a href="#"> <img src="../images/head_top_ad_02.jpg" />
+            </div>
+
             <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" class="f_r">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr>
@@ -48,7 +55,6 @@
             <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
             <!-- {if $smarty.foreach.nav_middle_list.last}-->
             <li><a href="{$nav.url}"
-
                 <!-- {if $nav.opennew eq 1} -->
                 target="_blank"
                 <!-- {/if} -->
