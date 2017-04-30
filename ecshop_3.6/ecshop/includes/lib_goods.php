@@ -289,7 +289,7 @@ function get_recommend_goods($type = '', $cats = '')
         //取出所有符合条件的商品数据，并将结果存入对应的推荐类型数组中
         $sql = 'SELECT g.goods_id, g.goods_name, g.goods_name_style, g.market_price, g.shop_price AS org_price, g.promote_price, ' .
                 "IFNULL(mp.user_price, g.shop_price * '$_SESSION[discount]') AS shop_price, ".
-                "promote_start_date, promote_end_date, g.goods_brief, g.goods_thumb, g.goods_img, RAND() AS rnd " .
+                "promote_start_date, promote_end_date, g.goods_brief, g.goods_thumb, g.goods_img, g.original_img, RAND() AS rnd " .
                 'FROM ' . $GLOBALS['ecs']->table('goods') . ' AS g ' .
                 "LEFT JOIN " . $GLOBALS['ecs']->table('member_price') . " AS mp ".
                 "ON mp.goods_id = g.goods_id AND mp.user_rank = '$_SESSION[user_rank]' ";
@@ -325,6 +325,7 @@ function get_recommend_goods($type = '', $cats = '')
             $goods[$idx]['shop_price']   = price_format($row['shop_price']);
             $goods[$idx]['thumb']        = get_image_path($row['goods_id'], $row['goods_thumb'], true);
             $goods[$idx]['goods_img']    = get_image_path($row['goods_id'], $row['goods_img']);
+            $goods[$idx]['original_img']    = get_image_path($row['goods_id'], $row['original_img']);
             $goods[$idx]['url']          = build_uri('goods', array('gid' => $row['goods_id']), $row['goods_name']);
             if (in_array($row['goods_id'], $type_array['best']))
             {
