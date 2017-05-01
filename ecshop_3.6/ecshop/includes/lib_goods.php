@@ -492,6 +492,34 @@ function get_category_recommend_goods($type = '', $cats = '', $brand = 0, $min =
 }
 
 /**
+ * 获取推荐的品牌列表
+ * @return mixed
+ */
+function get_recommend_brand(){
+
+    $tableBrand = $GLOBALS['ecs']->table('brand');
+    $sql = "select * from {$tableBrand} where is_recommend = 1";
+    $recommendBrandList = $GLOBALS['db']->getAll($sql);
+
+    return $recommendBrandList;
+}
+
+//获取推荐的品牌商品列表
+function get_recommend_brand_goods(){
+
+    $goodsList = [];
+    $recommendBrandList = get_recommend_brand();
+    if (is_array($recommendBrandList) && count($recommendBrandList)) {
+        foreach ($recommendBrandList as &$brand){
+            $brandGoodsList = get_category_recommend_goods('hot','',$brand['id']);
+            $brand['goods_list'] = $brandGoodsList;
+        }
+    }
+
+    return $goodsList;
+}
+
+/**
  * 获得商品的详细信息
  *
  * @access  public
