@@ -37,11 +37,11 @@ if (Object.prototype.toJSONString){
 <div class="indexpage clearfix index-ad none"  >
   <div class="ad-tg">
     <!-- TemplateBeginEditable name="团购广告230x206" -->
-        <!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
 
-            {insert name='ads' id=$ads_id num=$ads_num}
-        <!-- #EndLibraryItem -->
-    <!-- TemplateEndEditable -->
+{insert name='ads' id=$ads_id num=$ads_num}
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
   </div>
   <div class="ad-lb">
     <!-- #BeginLibraryItem "/library/index_lad.lbi" --><!-- #EndLibraryItem -->
@@ -61,59 +61,57 @@ if (Object.prototype.toJSONString){
       <div class="goods-title">热销推荐</div>
       <div class="clearfix goods-wrap">
         <!-- TemplateBeginEditable name="热门商品推荐" -->
-            <!-- #BeginLibraryItem "/library/recommend_hot.lbi" -->
-            <!-- #EndLibraryItem -->
-        <!-- TemplateEndEditable -->
-      </div>
-      <div class="goods-title">品牌推荐1</div>
-      <div class="clearfix goods-wrap">
-
-        <!--
-        <div class="goods-leftad">
-          <!-- #BeginLibraryItem "/library/f2_ad.lbi" --><!-- #EndLibraryItem -->
-        </div>
-        <div class="goods-right">
-
-        </div>
-        -->
-
-        <!-- TemplateBeginEditable name="2层产品" -->
-            <!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
-                <div class="all_ms">
-                  <!--{foreach from=$cat_goods item=goods}-->
-                  <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
-                  <div class="goods-brief">{$goods.brief|truncate:20}</div>
-                    <div class="gos-title">{$goods.short_name|escape:html}</div>
-                    <div class="prices">
-                        <!-- {if $goods.promote_price neq ""} -->
-                    <font class="shop_s">{$lang.promote_price}<b>{$goods.promote_price}</b></font>
-                    <!-- {else}-->
-                    <font class="shop_s"><b>{$goods.shop_price}</b></font>
-                    <!--{/if}-->
-                    </div>
+<!-- #BeginLibraryItem "/library/recommend_hot.lbi" -->
 
 
-                  </a>
-                  <!--{/foreach}-->
-                  <div class="clear0"></div>
+<!-- {if $hot_goods} -->
+<!-- {if $cat_rec_sign neq 1} -->
+<div id="show_hot_area" class="clearfix goodsBox all_mid all_ms horizontal_goods">
+  <!-- {/if} -->
+  <!--{foreach from=$hot_goods item=goods name=item}-->
+        {if $smarty.foreach.item.index < 4}
+             <a class="goodsItem" href="{$goods.url}">
+                <div  class="img-box">
+                    <img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" />
                 </div>
+              <div class="goods-brief">{$goods.brief|truncate:20}</div>
+                <div class="gos-title">{$goods.name|escape:html}</div>
+              <div class="prices">
+                  <!-- {if $goods.promote_price neq ""} -->
+                <font class="shop_s">{$lang.promote_price}<b>{$goods.promote_price}</b></font>
+                <!-- {else}-->
+                <font class="shop_s"><b>{$goods.shop_price}</b></font>
+                <!--{/if}-->
+              </div>
+              </a>
+        {/if}
+  <!--{/foreach}-->
+  <!-- {if $cat_rec_sign neq 1} -->
+  <div class="clear0"></div>
+</div> <div class="clear10"></div>
+<!-- {/if} -->
+<!-- {/if} -->
 
-             <!-- #EndLibraryItem -->
-        <!-- TemplateEndEditable -->
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
 
       </div>
-      <div class="goods-title">品牌推荐2</div>
-      <div class="clearfix goods-wrap">
-        <div class="goods-leftad">
-          <!-- #BeginLibraryItem "/library/f3_ad.lbi" --><!-- #EndLibraryItem -->
-        </div>
-        <div class="goods-right">
-            <!-- TemplateBeginEditable name="3层产品" -->
+
+
+
+
+        <div class="goods-title">1F 家用电器</div>
+              <div class="clearfix goods-wrap goods-wrap-has-ad">
+                <div class="goods-leftad">
+                  <!-- #BeginLibraryItem "/library/f1_ad.lbi" --><!-- #EndLibraryItem -->
+                </div>
+                <div class="goods-right">
+                    <!-- TemplateBeginEditable name="1层产品" -->
 <!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
 
 <div class="all_ms">
   <!--{foreach from=$cat_goods item=goods}-->
-  <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.thumb}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
+  <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
   <div class="goods-brief">{$goods.brief|truncate:20}</div>
     <div class="gos-title">{$goods.short_name|escape:html}</div> 
 	<div class="prices">
@@ -132,8 +130,72 @@ if (Object.prototype.toJSONString){
 
  <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
-        </div>
-      </div>
+                </div>
+              </div>
+              <div class="goods-title">2F 数码时尚</div>
+              <div class="clearfix goods-wrap">
+                <div class="goods-leftad">
+                  <!-- #BeginLibraryItem "/library/f2_ad.lbi" --><!-- #EndLibraryItem -->
+                </div>
+                <div class="goods-right">
+        		            <!-- TemplateBeginEditable name="2层产品" -->
+<!-- #BeginLibraryItem "/library/cat_goods.lbi" -->
+
+<div class="all_ms">
+  <!--{foreach from=$cat_goods item=goods}-->
+  <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
+  <div class="goods-brief">{$goods.brief|truncate:20}</div>
+    <div class="gos-title">{$goods.short_name|escape:html}</div> 
+	<div class="prices">
+	    <!-- {if $goods.promote_price neq ""} -->
+    <font class="shop_s">{$lang.promote_price}<b>{$goods.promote_price}</b></font>
+    <!-- {else}-->
+    <font class="shop_s"><b>{$goods.shop_price}</b></font>
+    <!--{/if}-->
+	</div>
+	 
+
+  </a>
+  <!--{/foreach}-->
+  <div class="clear0"></div>
+</div>
+
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+                </div>
+              </div>
+
+
+            <div class="ad_xhy_01">
+                   <div class="goods-leftad">
+                    <!-- #BeginLibraryItem "/library/xhy_horizontal_01.lbi" --><!-- #EndLibraryItem -->
+                   </div>
+            </div>
+
+            <div class="goods-title">3F 家居生活</div>
+            <div class="clearfix goods-wrap">
+                <div class="goods-leftad">
+                  <!-- #BeginLibraryItem "/library/f3_ad.lbi" --><!-- #EndLibraryItem -->
+                </div>
+                <div class="goods-right">
+                    <!-- TemplateBeginEditable name="3层产品" -->
+<!-- TemplateEndEditable -->
+                </div>
+            </div>
+
+
+            <div class="xhy_wrap">
+                <div class="left">
+                </div>
+
+                <div class="right news">
+                    <!-- TemplateBeginEditable name="新闻" -->
+<!-- TemplateEndEditable -->
+                </div>
+            </div>
+
+
+
 
 
     </div>

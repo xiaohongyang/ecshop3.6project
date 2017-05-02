@@ -1,12 +1,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
- 
+
 <!-- {if $hot_goods} -->
 <!-- {if $cat_rec_sign neq 1} -->
 <div id="show_hot_area" class="clearfix goodsBox all_mid all_ms horizontal_goods">
   <!-- {/if} -->
   <!--{foreach from=$hot_goods item=goods name=item}-->
         {if $smarty.foreach.item.index < 4}
-             <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
+             <a class="goodsItem" href="{$goods.url}">
+                <div  class="img-box">
+                    <img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" />
+                </div>
               <div class="goods-brief">{$goods.brief|truncate:20}</div>
                 <div class="gos-title">{$goods.name|escape:html}</div>
               <div class="prices">
