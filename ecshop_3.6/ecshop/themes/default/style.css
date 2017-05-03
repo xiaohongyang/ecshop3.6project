@@ -3220,3 +3220,28 @@ h3.border span,
   height: 300px;
   max-height: none;
 }
+.xhy_wrap.friend_link {
+  background: #3a78f1;
+  height: 120px;
+  color: #fff;
+}
+.xhy_wrap.friend_link strong {
+  font-size: 26px;
+  color: #fff;
+}
+.xhy_wrap.friend_link a {
+  color: #fff;
+}
+.xhy_wrap .left {
+  float: left;
+}
+.xhy_wrap .news {
+  float: left;
+  margin-left: 15px;
+}
+.foot-body .bads img {
+  width: 1200px;
+}
+.margin-bottom {
+  margin-bottom: 20px;
+}
