@@ -149,7 +149,7 @@ body {
     {if $menu.children}
     <ul>
     {foreach from=$menu.children item=child}
-      {if @!in_array($child.label, [ "充值和提现申请",  "资金管理", "会员注册项设置", "支付方式", "地区列表", "计划任务",  "验证码管理", "文件校验"])}
+      {if @!in_array($child.label, [ "充值和提现申请",  "资金管理", "支付方式", "地区列表", "计划任务",  "验证码管理", "文件校验"])}
       <li class="menu-item"><a href="{$child.action}" target="main-frame">{$child.label}</a></li>
       {/if}
     {/foreach}

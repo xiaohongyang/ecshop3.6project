@@ -45,7 +45,7 @@
           {$rank_name} {$next_rank_name}<br />
           <div class="blank5"></div>
           <!--{if $info.is_validate eq 0} -->
-          {$lang.not_validated} <a href="javascript:sendHashMail()" style="color:#006bd0;">{$lang.resend_hash_mail}</a><br />
+          <!--{$lang.not_validated} <a href="javascript:sendHashMail()" style="color:#006bd0;">{$lang.resend_hash_mail}</a><br />-->
           <!--{/if} -->
           <div style="margin:5px 0; border:1px solid #a1675a;padding:10px 20px; background-color:#e8d1c9;"> <img src="images/note.gif" alt="note" />&nbsp;{$user_notice} </div>
           <br />
