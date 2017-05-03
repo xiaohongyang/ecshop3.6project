@@ -201,7 +201,7 @@ if (Object.prototype.toJSONString){
             <!--友情链接 start-->
             <!--{if $img_links  or $txt_links }-->
             <div style="width:960px; height:100%; line-height:30px;  padding:0px; margin: 0px; margin:  0 auto; overflow:hidden; margin-right:200px;">
-            <div style="margin-top:  15px;">
+            <div style="margin-top:  40px;">
               <div  style="margin:0px; padding:0px; "><strong>　友情链接：</strong>
                 <!--开始图片类型的友情链接{foreach from=$img_links item=link}-->
                 <a href="{$link.url}" target="_blank" title="{$link.name}"><img src="{$link.logo}" alt="{$link.name}" border="0" /></a>
