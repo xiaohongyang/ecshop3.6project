@@ -245,9 +245,9 @@
               <tr>
                 <td align="right" bgcolor="#ffffff">{$lang.label_charset}</td>
                 <td bgcolor="#ffffff"><select name="charset" id="charset">
-                    
+
         {html_options options=$lang_list}
-      
+
                   </select></td>
               </tr>
               <tr>
@@ -453,9 +453,9 @@
               <td colspan="5" bgcolor="#ffffff"><form action="{$smarty.server.PHP_SELF}" method="get">
                   <div id="pager"> {$lang.pager_1}{$pager.record_count}{$lang.pager_2}{$lang.pager_3}{$pager.page_count}{$lang.pager_4} <span> <a href="{$pager.page_first}">{$lang.page_first}</a> <a href="{$pager.page_prev}">{$lang.page_prev}</a> <a href="{$pager.page_next}">{$lang.page_next}</a> <a href="{$pager.page_last}">{$lang.page_last}</a> </span>
                     <select name="page" id="page" onchange="selectPage(this)">
-                      
+
     {html_options options=$pager.array selected=$pager.page}
-    
+
                     </select>
                     <input type="hidden" name="act" value="affiliate" />
                   </div>

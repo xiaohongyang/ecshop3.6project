@@ -3245,3 +3245,9 @@ h3.border span,
 .margin-bottom {
   margin-bottom: 20px;
 }
+.userpage .AreaR {
+  width: 100%;
+}
+.userpage .AreaL {
+  display: none;
+}
