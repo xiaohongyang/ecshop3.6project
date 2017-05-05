@@ -3251,3 +3251,19 @@ h3.border span,
 .userpage .AreaL {
   display: none;
 }
+#goodsInfo .imgInfo {
+  height: 660px;
+}
+#goodsInfo .imgInfo #goodsImage {
+  width: 437px;
+  height: 574px;
+}
+#goodsInfo span,
+#goodsInfo span.spanR {
+  display: none;
+}
+#goodsInfo .gallery {
+  padding-left: 11px;
+  width: 441px;
+  overflow: hidden;
+}
