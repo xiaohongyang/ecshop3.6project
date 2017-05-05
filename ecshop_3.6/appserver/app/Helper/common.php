@@ -135,6 +135,9 @@ if (! function_exists('curl_request')) {
 
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
 
+		if (strstr($_SERVER['SERVER_NAME'], 'ecshop.local') !== false)
+        	curl_setopt($curl, CURLOPT_PROXY, "127.0.0.1:8888");
+
         $response = curl_exec($curl);
 
         if ($response === FALSE) {
