@@ -519,7 +519,7 @@ function reg(str){
 <div id="Top_cartTip" class="Top_shopcart" style="display: none;">
   <div class="Top_shopcart_title"> 商品已经成功添加至购物车！</div>
   <div class="Top_shopcart_main">
-    <div class="Top_cart_line">您的购物车内有 <span id="Top_cartNum">9</span>件商品<br>
+    <div class="Top_cart_line"> <!--您的购物车内有 <span id="Top_cartNum">9</span>件商品<br>-->
       <span style="display:none">总计价格为：￥ </span><span id="Top_cartValue" style="display:none">711</span></div>
       <div id="ProductCartTip" style="color: #ff3385;"></div>
     <div class="Top_shopcart_button"><a class="checkout" onclick="Cart.hideCartTip(false)">继续购物</a><a class="checkin"  href="/flow.php?step=cart" target="_blank">查看购物车</a></div>

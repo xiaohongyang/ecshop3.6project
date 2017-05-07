@@ -3551,3 +3551,12 @@ h3.border span,
   height: 124px;
   margin: 0 auto;
 }
+#ECS_CARTINFO {
+  background: url(images/cart.png) no-repeat 5px center #fff;
+  width: 140px;
+  text-indent: 30px;
+}
+#ECS_CARTINFO a {
+  display: inline;
+  line-height: 28px;
+}
