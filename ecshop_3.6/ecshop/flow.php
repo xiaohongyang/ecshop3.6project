@@ -152,7 +152,11 @@ if ($_REQUEST['step'] == 'add_to_cart')
                 $result['message'] = $_CFG['cart_confirm'] == 1 ? $_LANG['addto_cart_success_1'] : $_LANG['addto_cart_success_2'];
             }
 
+
             $result['content'] = insert_cart_info();
+            if (property_exists($goods, 'jumpUrl') && !$goods->jumpUrl)
+                $result['content'] = '';
+
             $result['one_step_buy'] = $_CFG['one_step_buy'];
         }
         else

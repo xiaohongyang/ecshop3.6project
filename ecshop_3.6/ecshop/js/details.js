@@ -1,4 +1,12 @@
 var hasDegreeClick = false;
+var Cart={}
+Cart.showCartTip = function(){
+    $('#Top_cartTip').show();
+}
+Cart.hideCartTip = function(){
+    $('#Top_cartTip').hide();
+}
+
 $(function(){
     $("#right-degrees li").each(function () {
         /*$(this).attr("degree", $(this).text()); // 把度数存到属性里
@@ -23,12 +31,18 @@ $(function(){
 
 })
 
+function onGoToCommitOrder(){
+    window.location.href="/flow.php?step=cart";
+}
+function buyNow(){
+    addToCartXhy($('#goods_id').val(), 0, 1);
+}
 /* *
  * 添加商品到购物车
  */
-function addToCartXhy(goodsId, parentId)
+function addToCartXhy(goodsId, parentId, isBuyNow)
 {
-    goodsId = goodsId == undefined ? $('#goods_id').val() : goodsId
+    goodsId = goodsId == undefined? $('#goods_id').val() : goodsId
     var goods        = new Object();
     var spec_arr     = new Array();
     var fittings_arr = new Array();
@@ -36,6 +50,9 @@ function addToCartXhy(goodsId, parentId)
     var formBuyLeft      = $('#left-degrees');
     var formBuyRight      = $('#right-degrees');
     var quick		   = 0;
+
+    var rs = false;
+    var errorMsg = '';
 
     // 检查是否有商品规格
     if (!formBuyLeft.find('.y2').length && !formBuyRight.find('.y2').length)
@@ -57,6 +74,8 @@ function addToCartXhy(goodsId, parentId)
         goods.goods_id = goodsId;
         goods.number   = number;
         goods.parent   = (typeof(parentId) == "undefined") ? 0 : parseInt(parentId);
+
+        goods.jumpUrl = isBuyNow ? 1 : 0;
         Ajax.call('flow.php?step=add_to_cart', 'goods=' + goods.toJSONString(), addToCartResponse, 'POST', 'JSON');
     }
     if(specialRight && specialRight.attr('data-spec')) {
@@ -66,18 +85,12 @@ function addToCartXhy(goodsId, parentId)
         goods.goods_id = goodsId;
         goods.number   = number;
         goods.parent   = (typeof(parentId) == "undefined") ? 0 : parseInt(parentId);
+
+        goods.jumpUrl = isBuyNow ? 1 : 0;
         Ajax.call('flow.php?step=add_to_cart', 'goods=' + goods.toJSONString(), addToCartResponse, 'POST', 'JSON');
     }
 
-
-return;
-    goods.quick    = quick;
-    goods.spec     = spec_arr;
-    goods.goods_id = goodsId;
-    goods.number   = number;
-    goods.parent   = (typeof(parentId) == "undefined") ? 0 : parseInt(parentId);
-
-    Ajax.call('flow.php?step=add_to_cart', 'goods=' + goods.toJSONString(), addToCartResponse, 'POST', 'JSON');
+    return  ;
 }
 
 function DegreeClick() {
@@ -94,18 +107,14 @@ function onChangeNum(dom, n) {
     if(a >= 0 && a <= 10)
         num_input.val(parseInt(num_input.val()) + n);
 
-    if (getTotalBuyNum() > 0) {
-        showChoice(false);
-    }
+
 }
 
 function onClickDegree() {
     showContentForSku($(this).attr("degree"));
     $(this).parent().children(".y2").removeClass("y2");
     $(this).addClass("y2");
-    if (getTotalBuyNum() > 0) {
-        showChoice(false);
-    }
+
 
     /* 设置id */
     var color = getDefaultColor();
@@ -148,8 +157,6 @@ function onLeaveDegree() {
 // for detail mini
 function onSelectDegree(dom) {
     showContentForSku($(dom).find("option:selected").text());
-    if (getTotalBuyNum() > 0) {
-        showChoice(false);
-    }
+
 }
 

@@ -122,7 +122,10 @@ function addToCartResponse(result)
           if (!confirm(result.message)) location.href = cart_url;
           break;
         case '3' :
-          location.href = cart_url;
+          if (result.content != '')
+            location.href = cart_url;
+          else
+            Cart.showCartTip()
           break;
         default :
           break;
