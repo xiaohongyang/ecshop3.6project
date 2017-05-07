@@ -3566,3 +3566,50 @@ h3.border span,
   display: inline;
   line-height: 28px;
 }
+.CfloatBtn {
+  position: fixed;
+  _position: absolute;
+  z-index: 9999;
+  bottom: 9px;
+  right: 62px;
+  width: 52px;
+}
+.CfloatBtn .comment,
+.CfloatBtn .group,
+.CfloatBtn .qq,
+.CfloatBtn .qa,
+.CfloatBtn .qrcode,
+.CfloatBtn .scroll_Top {
+  display: block;
+  margin: 0;
+  background: url(/themes/default/images/common_float_ico3.jpg) no-repeat;
+  cursor: pointer;
+  width: 102px !important;
+}
+.CfloatBtn .comment {
+  height: 101px;
+  background-position: 0 0;
+}
+.CfloatBtn .group {
+  height: 80px;
+  background-position: 0 -102px;
+}
+.CfloatBtn .qq {
+  height: 89px;
+  background-position: 0 -198px;
+}
+.CfloatBtn .qa {
+  height: 91px;
+  background-position: 0 -287px;
+}
+.CfloatBtn .qrcode {
+  height: 102px;
+  background-position: 0 -378px;
+}
+.CfloatBtn .scroll_Top {
+  height: 37px;
+  background-position: 0 -480px;
+}
+.CfloatBtn .scroll_Top:hover {
+  background-position: 0px -480px;
+}
