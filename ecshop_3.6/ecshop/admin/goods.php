@@ -985,7 +985,7 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
             {
                 $attr_value = $_POST['attr_value_list'][$key];
                 $attr_price = $_POST['attr_price_list'][$key];
-                if (!empty($attr_value))
+                if (!empty($attr_value) || $attr_value==="0")
                 {
                     if (isset($goods_attr_list[$attr_id][$attr_value]))
                     {

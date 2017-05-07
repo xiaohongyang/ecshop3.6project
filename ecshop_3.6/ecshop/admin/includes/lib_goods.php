@@ -625,7 +625,7 @@ function get_attr_list($cat_id, $goods_id = 0)
             "LEFT JOIN " .$GLOBALS['ecs']->table('goods_attr'). " AS v ".
             "ON v.attr_id = a.attr_id AND v.goods_id = '$goods_id' ".
             "WHERE a.cat_id = " . intval($cat_id) ." OR a.cat_id = 0 ".
-            "ORDER BY a.sort_order, a.attr_type, a.attr_id, v.attr_price, v.goods_attr_id";
+            "ORDER BY a.sort_order, v.attr_value asc, a.attr_type,  v.attr_price, v.goods_attr_id";
 
     $row = $GLOBALS['db']->GetAll($sql);
 
@@ -1028,7 +1028,7 @@ function get_goods_specifications_list($goods_id)
                     ON a.attr_id = g.attr_id
             WHERE goods_id = '$goods_id'
             AND a.attr_type = 1
-            ORDER BY g.attr_id ASC";
+            ORDER BY g.attr_value ASC, g.attr_id ASC";
     $results = $GLOBALS['db']->getAll($sql);
 
     return $results;
