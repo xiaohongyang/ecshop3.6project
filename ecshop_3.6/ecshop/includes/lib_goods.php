@@ -860,7 +860,7 @@ function assign_brand_goods($brand_id, $num = 0, $cat_id = 0,$order_rule = '')
 {
     $sql =  'SELECT g.goods_id, g.goods_name, g.market_price, g.shop_price AS org_price, ' .
                 "IFNULL(mp.user_price, g.shop_price * '$_SESSION[discount]') AS shop_price, ".
-                'g.promote_price, g.promote_start_date, g.promote_end_date, g.goods_brief, g.goods_thumb, g.goods_img ' .
+                'g.promote_price, g.promote_start_date, g.promote_end_date, g.goods_brief, g.goods_thumb, g.goods_img, g.original_img ' .
             'FROM ' . $GLOBALS['ecs']->table('goods') . ' AS g ' .
             "LEFT JOIN " . $GLOBALS['ecs']->table('member_price') . " AS mp ".
                     "ON mp.goods_id = g.goods_id AND mp.user_rank = '$_SESSION[user_rank]' ".
@@ -904,6 +904,7 @@ function assign_brand_goods($brand_id, $num = 0, $cat_id = 0,$order_rule = '')
         $goods[$idx]['promote_price'] = $promote_price > 0 ? price_format($promote_price) : '';
         $goods[$idx]['brief']         = $row['goods_brief'];
         $goods[$idx]['thumb']         = get_image_path($row['goods_id'], $row['goods_thumb'], true);
+        $goods[$idx]['original_img']         = get_image_path($row['goods_id'], $row['original_img'], true);
         $goods[$idx]['goods_img']     = get_image_path($row['goods_id'], $row['goods_img']);
         $goods[$idx]['url']           = build_uri('goods', array('gid' => $row['goods_id']), $row['goods_name']);
 
