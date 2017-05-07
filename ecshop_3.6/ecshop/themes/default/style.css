@@ -3006,6 +3006,12 @@ h3.border span,
 .list-pop .txt {
   padding-left: 20px;
 }
+.first_nav_li > a:first-child {
+  display: none !important;
+}
+#mainNav.xhyNav .m_left ul li a.cur {
+  background: #f647a2 !important;
+}
 .top-bar {
   background: #fff ;
   border-bottom: 1px solid #eeeeee;

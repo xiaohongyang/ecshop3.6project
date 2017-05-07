@@ -126,6 +126,23 @@ function insert_cart_info()
 }
 
 /**
+ * 判断导航按钮是否是当前页，是则返回'class="cur"'
+ * @return string
+ */
+function insert_menu_cur_class($arr)
+{
+    if(empty($link))
+        $link = "/index.php";
+
+    if(strstr($_SERVER['REQUEST_URI'], $arr['link']) !== false)
+        return 'class="cur"';
+    else
+        return '';
+}
+
+
+
+/**
  * 调用指定的广告位的广告
  *
  * @access  public

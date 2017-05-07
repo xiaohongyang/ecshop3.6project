@@ -15,6 +15,7 @@
 <!-- {/if} -->
 {* 包含脚本文件 *}
 {insert_scripts files='common.js,global.js,compare.js'}
+
 </head>
 <body>
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
