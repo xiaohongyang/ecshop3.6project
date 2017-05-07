@@ -10,8 +10,11 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+
 {* 包含脚本文件 *}
 {insert_scripts files='common.js'}
+{insert_scripts files='jquery-1.11.3.min.js'}
+{insert_scripts files='details.js'}
 <script type="text/javascript">
 function $id(element) {
   return document.getElementById(element);
@@ -191,6 +194,111 @@ function reg(str){
             <li style="height:30px;padding-top:4px;"> {$lang.goods_free_shipping}<br />
             </li>
             <!-- {/if} -->
+
+            <!-- {* 开始循环所有可选属性 *} -->
+                <!-- {foreach from=$specification item=spec key=spec_key} -->
+
+                <!-- {if $spec.name eq '度数'} -->
+                    <div id="degreeArea" class="degreeArea" style="margin-top:13px;">
+                        <div id="degreeArea_full" class="mt">
+                            <div class="close" id="choiceX" style="display: none;"><img src="http://image.meimumeijia.com/anyeye/www/index/1222/x.jpg" onclick="showChoice(false)"></div>
+                            <!-- 度数和数量 -->
+                            <div class="eye">
+                                <span class="n-span">左眼：</span>
+                                <input id="left-sku-id" type="hidden" value="10058228">
+                                <ul id="left-degrees">
+                                    <!--
+                                    <li onclick="DegreeClick()" degree="0" class="y1">0</li>
+                                    <li onclick="DegreeClick()" degree="375" class="y1 y2">375</li>
+                                    <li onclick="DegreeClick()" degree="1000">1000</li>
+                                    -->
+                                    <!-- {foreach from=$spec.values item=value key=key} -->
+                                        <li onclick="DegreeClick()" degree="{$value.id}" class="y1" data-spec="{$value.id}">{$value.label}</li>
+                                    <!-- {/foreach} -->
+                                </ul>
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="num">
+                                <span class="n-span">数量：</span>
+                                <span class="tb-stock">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, -1)"
+                                       hidefocus=""
+                                       class="tb-reduce J_Reduce tb-iconfont">
+                                        <img
+                                            src="http://image.meimumeijia.com/anyeye/www/index/0617/jian.jpg">
+                                    </a>
+                                    <input id="left-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, 1)"
+                                       hidefocus=""
+                                       class="tb-increase J_Increase tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jia.jpg">
+                                    </a>件
+                                </span>
+                                <!--<span class="glass"><a href="#glass">如何换算框架眼镜和隐形眼镜度数</a></span>-->
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="eye">
+                                <span class="n-span">右眼：</span>
+                                <input id="right-sku-id" type="hidden" value="10058216">
+                                <ul id="right-degrees">
+                                    <!-- {foreach from=$spec.values item=value key=key} -->
+                                        <li onclick="DegreeClick()" degree="1000" class="y1" data-spec="{$value.id}">{$value.label}</li>
+                                    <!-- {/foreach} -->
+                                </ul>
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="num">
+                                <span class="n-span">数量：</span>
+                                <span class="tb-stock">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, -1)"
+                                       hidefocus=""
+                                       class="tb-reduce J_Reduce tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jian.jpg">
+                                    </a>
+                                    <input id="right-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, 1)"
+                                       hidefocus=""
+                                       class="tb-increase J_Increase tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jia.jpg">
+                                    </a>件
+                                </span>
+                                <div class="divclear"></div>
+                            </div>
+                        </div>
+
+                        <div id="degreeArea_num" class="qt">
+                            <div class="num"><span class="n-span">数量:</span> <span class="tb-stock"> <a href="javascript:void(0)" onclick="javascript:onChangeNum(this, -1)" hidefocus="" class="tb-reduce J_Reduce tb-iconfont">-</a>
+                                    <input id="common-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)" onclick="javascript:onChangeNum(this, 1)" hidefocus="" class="tb-increase J_Increase tb-iconfont">+</a>件 </span>
+                                <div class="divclear"></div>
+                            </div>
+                        </div>
+
+                        <div class="prod_buy">
+                        <div style="float:left; margin:0; margin-right:20px; padding-right:20px; border-right:1px dotted #ccc; overflow:hidden; height:127px;">
+                          <div id="Img1" style="cursor: pointer; width: 172px;" onclick="addToCartXhy()"><img src="http://image.meimumeijia.com/anyeye/www/index/1222/incart.jpg"></div>
+                          <div id="buyPic" style="cursor: pointer; background: rgb(255, 51, 153); border-radius: 8px;" onclick="buyNow()">立即购买</div>
+                          <div id="nobuyPic" style="display:none; background:#666; border-radius:5px;">商品已下架</div>
+                          <div id="StockoutPic" style="display:none ;background:#666; border-radius:5px;">商品缺货</div>
+                          <div id="coloroffsale" style="display:none ; background:#666; border-radius:5px;">颜色已下架</div>
+                          <div id="colorStockout" style="display:none ; background:#666; border-radius:5px;">颜色缺货</div>
+                          </div>
+                          <div style="float:left; width:229px; height:117px;"><a href="http://activity.4inlook.com/weservice" target="_blank"><img src="http://image.meimumeijia.com/anyeye/www/product/QR_code.jpg"></a></div>
+                        </div>
+                    </div>
+                <!-- {/if} -->
+
+                <!-- {/foreach} -->
+            <!-- {* 结束循环可选属性 *} -->
+
+
+
+
+            <!--
             <!-- {* 开始循环所有可选属性 *} -->
             <!-- {foreach from=$specification item=spec key=spec_key} -->
             <li class="padd loop"> <strong>{$spec.name}:</strong><br />
@@ -224,7 +332,9 @@ function reg(str){
             </li>
             <!-- {/foreach} -->
             <!-- {* 结束循环可选属性 *} -->
-            <li class="padd">
+            -->
+
+            <li class="padd none">
               <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td class="td1"><a href="javascript:addToCart({$goods.goods_id})"><img src="images/buybtn1.png" /></a></td>
@@ -401,7 +511,7 @@ function reg(str){
   <!--right end-->
 </div>
 <div class="blank5"></div>
-
+<input type="hidden" id="goods_id" value='{$goods_id}' />
 <div class="blank"></div>
 </div>
 <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->

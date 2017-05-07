@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <!-- {if $pictures}-->
  <div class="clearfix">
-      <span onmouseover="moveLeft()" onmousedown="clickLeft()" onmouseup="moveLeft()" onmouseout="scrollStop()"></span>
+      <span class="spanL" onmouseover="moveLeft()" onmousedown="clickLeft()" onmouseup="moveLeft()" onmouseout="scrollStop()"></span>
       <div class="gallery">
         <div id="demo">
           <div id="demo1" style="float:left">
