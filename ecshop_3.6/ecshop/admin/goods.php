@@ -285,6 +285,7 @@ elseif ($_REQUEST['act'] == 'add' || $_REQUEST['act'] == 'edit' || $_REQUEST['ac
             $goods['promote_start_date'] = local_date('Y-m-d', $goods['promote_start_date']);
             $goods['promote_end_date'] = local_date('Y-m-d', $goods['promote_end_date']);
         }
+        $goods['goods_norms'] = (isset($goods['goods_norms'])) ? $goods['goods_norms'] : '';
 
         /* 如果是复制商品，处理 */
         if ($_REQUEST['act'] == 'copy')
@@ -640,12 +641,12 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
         }
         elseif ($_POST['goods_img_url'])
         {
-            
+
             if(preg_match('/(.jpg|.png|.gif|.jpeg)$/',$_POST['goods_img_url']) && copy(trim($_POST['goods_img_url']), ROOT_PATH . 'temp/' . basename($_POST['goods_img_url'])))
             {
                   $original_img = 'temp/' . basename($_POST['goods_img_url']);
             }
-            
+
         }
 
         if ($original_img === false)
@@ -805,7 +806,8 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
     $promote_price = !empty($_POST['promote_price']) ? floatval($_POST['promote_price'] ) : 0;
     $is_promote = empty($promote_price) ? 0 : 1;
     $promote_start_date = ($is_promote && !empty($_POST['promote_start_date'])) ? local_strtotime($_POST['promote_start_date']) : 0;
-    $promote_end_date = ($is_promote && !empty($_POST['promote_end_date'])) ? local_strtotime($_POST['promote_end_date']) : 0;
+	$promote_end_date = ($is_promote && !empty($_POST['promote_end_date'])) ? local_strtotime($_POST['promote_end_date']) : 0;
+    $goods_norms = (!empty($_POST['goods_norms'])) ? $_POST['goods_norms'] : '';
     $goods_weight = !empty($_POST['goods_weight']) ? $_POST['goods_weight'] * $_POST['weight_unit'] : 0;
     $is_best = isset($_POST['is_best']) ? 1 : 0;
     $is_new = isset($_POST['is_new']) ? 1 : 0;
@@ -837,13 +839,13 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
             "cat_id, brand_id, shop_price, market_price, virtual_sales, is_promote, promote_price, " .
                     "promote_start_date, promote_end_date, goods_img, goods_thumb, original_img, keywords, goods_brief, " .
                     "seller_note, goods_weight, goods_number, warn_number, integral, give_integral, is_best, is_new, is_hot, " .
-                    "is_on_sale, is_alone_sale, is_shipping, goods_desc, add_time, last_update, goods_type, rank_integral, suppliers_id)" .
+                    "is_on_sale, is_alone_sale, is_shipping, goods_desc, add_time, last_update, goods_type, rank_integral, suppliers_id, goods_norms)" .
                 "VALUES ('$_POST[goods_name]', '$goods_name_style', '$goods_sn', '$catgory_id', " .
                 "'$brand_id', '$shop_price', '$market_price', '$virtual_sales', '$is_promote','$promote_price', ".
                     "'$promote_start_date', '$promote_end_date', '$goods_img', '$goods_thumb', '$original_img', ".
                     "'$_POST[keywords]', '$_POST[goods_brief]', '$_POST[seller_note]', '$goods_weight', '$goods_number',".
                     " '$warn_number', '$_POST[integral]', '$give_integral', '$is_best', '$is_new', '$is_hot', '$is_on_sale', '$is_alone_sale', $is_shipping, ".
-                    " '$_POST[goods_desc]', '" . gmtime() . "', '". gmtime() ."', '$goods_type', '$rank_integral', '$suppliers_id')";
+                    " '$_POST[goods_desc]', '" . gmtime() . "', '". gmtime() ."', '$goods_type', '$rank_integral', '$suppliers_id', '$goods_norms')";
         }
         else
         {
@@ -851,13 +853,13 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
                     "cat_id, brand_id, shop_price, market_price, virtual_sales, is_promote, promote_price, " .
                     "promote_start_date, promote_end_date, goods_img, goods_thumb, original_img, keywords, goods_brief, " .
                     "seller_note, goods_weight, goods_number, warn_number, integral, give_integral, is_best, is_new, is_hot, is_real, " .
-                    "is_on_sale, is_alone_sale, is_shipping, goods_desc, add_time, last_update, goods_type, extension_code, rank_integral)" .
+                    "is_on_sale, is_alone_sale, is_shipping, goods_desc, add_time, last_update, goods_type, extension_code, rank_integral, goods_norms)" .
                 "VALUES ('$_POST[goods_name]', '$goods_name_style', '$goods_sn', '$catgory_id', " .
                     "'$brand_id', '$shop_price', '$market_price', '$virtual_sales', '$is_promote','$promote_price', ".
                     "'$promote_start_date', '$promote_end_date', '$goods_img', '$goods_thumb', '$original_img', ".
                     "'$_POST[keywords]', '$_POST[goods_brief]', '$_POST[seller_note]', '$goods_weight', '$goods_number',".
                     " '$warn_number', '$_POST[integral]', '$give_integral', '$is_best', '$is_new', '$is_hot', 0, '$is_on_sale', '$is_alone_sale', $is_shipping, ".
-                    " '$_POST[goods_desc]', '" . gmtime() . "', '". gmtime() ."', '$goods_type', '$code', '$rank_integral')";
+                    " '$_POST[goods_desc]', '" . gmtime() . "', '". gmtime() ."', '$goods_type', '$code', '$rank_integral', '$goods_norms')";
         }
     }
     else
@@ -891,7 +893,8 @@ elseif ($_REQUEST['act'] == 'insert' || $_REQUEST['act'] == 'update')
                 "promote_price = '$promote_price', " .
                 "promote_start_date = '$promote_start_date', " .
                 "suppliers_id = '$suppliers_id', " .
-                "promote_end_date = '$promote_end_date', ";
+                "promote_end_date = '$promote_end_date', " .
+                "goods_norms = '$goods_norms', ";
 
         /* 如果有上传图片，需要更新数据库 */
         if ($goods_img)
