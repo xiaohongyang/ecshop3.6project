@@ -423,9 +423,7 @@ var adminId = "{$admin_id}";
     <li><a href="index.php?act=main" target="main-frame">{$lang.admin_home}</a></li>
     <li><a href="privilege.php?act=modif" target="main-frame">{$lang.set_navigator}</a></li>
     {foreach from=$nav_list item=item key=key}
-      {if @!in_array($item, ["服务市场", "店铺二维码"])}
       <li><a href="{$key}" target="main-frame">{$item}</a></li>
-      {/if}
     {/foreach}
     <!--授权按钮-->
     {if $yunqi_login!=1}

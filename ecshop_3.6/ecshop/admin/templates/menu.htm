@@ -143,20 +143,16 @@ body {
   <li class="explode"><a href="{$menu.action}" target="main-frame">{$menu.label}</a></li>
 {else}
 
-  {if @!in_array($menu.label, ["云服务中心",    "报表统计", "权限管理", "数据库管理", "短信管理", "推荐管理", "邮件群发管理"])}
   <li class="explode" key="{$k}" name="menu" {if $menu.label == "移动版管理"} style="display: none;" {/if}>
     {$menu.label}
     {if $menu.children}
     <ul>
     {foreach from=$menu.children item=child}
-      {if @!in_array($child.label, [ "充值和提现申请",  "资金管理", "支付方式", "地区列表", "计划任务",  "验证码管理", "文件校验"])}
       <li class="menu-item"><a href="{$child.action}" target="main-frame">{$child.label}</a></li>
-      {/if}
     {/foreach}
     </ul>
     {/if}
   </li>
-  {/if}
 {/if}
 {/foreach}
   <!--<script language="JavaScript" src="http://api.ecshop.com/menu_ext.php?charset={$charset}&lang={$help_lang}"></script>-->
