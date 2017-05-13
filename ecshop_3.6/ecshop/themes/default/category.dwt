@@ -22,7 +22,7 @@
 <!--当前位置 start-->
  <div class="category-body">
   <div id="ur_here"> <!-- #BeginLibraryItem "/library/ur_here.lbi" --><!-- #EndLibraryItem --> </div>
- 
+
 <!--当前位置 end-->
 <div class="block clearfix">
 
@@ -106,8 +106,8 @@
     <div class="goodsList">
       <!--{foreach name=goods_list from=$goods_list item=goods}-->
       <ul class="clearfix bgcolor"
-        
-      
+
+
       <!--{if $smarty.foreach.goods_list.index mod 2 eq 0}-->
       id=""
       <!--{else}-->
@@ -149,7 +149,7 @@
         <!-- {if $goods.goods_id} -->
         <div class="goodsItem"> <a href="{$goods.url}"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></a><br />
           <p><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a></p>
- 
+
 		  <div class="prices">
       <!-- {if $goods.promote_price neq ""} -->
       <font class="shop_s">{$lang.promote_price}<b>{$goods.promote_price}</b></font>
@@ -170,8 +170,8 @@
     <div class="goodsList">
       <!--{foreach from=$goods_list item=goods}-->
       <ul class="clearfix bgcolor"
-        
-      
+
+
       <!--{if $smarty.foreach.goods_list.index mod 2 eq 0}-->
       id=""
       <!--{else}-->
@@ -255,9 +255,9 @@ var select_spe = "{$lang.select_spe}";
     {/if}
     <!--{/foreach}-->
     <select name="page" id="page" onchange="selectPage(this)">
-      
+
     {html_options options=$pager.array selected=$pager.page}
-    
+
     </select>
   </div>
   <!--{else}-->

@@ -241,7 +241,7 @@ if (Object.prototype.toJSONString){
                 </div>
             </div>
 
-        <div class="clearfix margin-bottom"></div>
+        <div class="clearfix margin-bottom clear-left" ></div>
 
         <div class="xhy_wrap friend_link margin-bottom">
 
