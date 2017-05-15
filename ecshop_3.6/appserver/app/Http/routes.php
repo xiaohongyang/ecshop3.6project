@@ -3,12 +3,16 @@
 use App\Helper\Token;
 
 $app->get('/', function () use ($app) {
-    return 'Hi';
+    return 'Hi Hi';
 });
+//test get @xhy
+
 
 //Other
 $app->group(['namespace' => 'App\Http\Controllers\v2', 'prefix' => 'v2'], function($app)
 {
+
+    $app->get('test', 'BannerController@get');
 
     $app->get('article.{id:[0-9]+}', 'ArticleController@show');
 
@@ -23,6 +27,8 @@ $app->group(['namespace' => 'App\Http\Controllers\v2', 'prefix' => 'v2'], functi
     $app->get('ecapi.auth.web', 'UserController@webOauth');
 
     $app->get('ecapi.auth.web.callback/{vendor:[0-9]+}', 'UserController@webCallback');
+
+
 
 });
 
@@ -92,6 +98,8 @@ $app->group(['namespace' => 'App\Http\Controllers\v2','prefix' => 'v2', 'middlew
     $app->post('ecapi.notice.list', 'NoticeController@index');
 
     $app->post('ecapi.banner.list', 'BannerController@index');
+
+
 
     $app->post('ecapi.version.check', 'VersionController@check');
 
