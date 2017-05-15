@@ -95,13 +95,11 @@ function reg(str){
                         <span>{$goods.goods_norms}</span></li>
                     <li>
                         <span>抛弃类型：</span>
-                        <span>
-                  <a href="ProductSerachList?exprieType=%e5%b9%b4%e6%8a%9b" target="_blank">年抛</a>
-              </span>
+                        <span>{$goods.exprie_type}</span>
                     </li>
                     <li>
                         <span style="letter-spacing:5px;margin-right:0px;">含水量：</span>
-                        <span><a href="ProductSerachList?water1=40&amp;water2=40" target="_blank">40</a> %</span>
+                        <span>{$goods.water_value}</span>
                     </li>
                     <li>
                         <span>产品直径：</span>
