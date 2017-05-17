@@ -1,0 +1,29 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+{if $recommend_brand_goods}
+{foreach from=$recommend_brand_goods item=brand name=brandItem}
+
+    <div class="goods-title">{$brand.brand_name}</div>
+    <div class="clearfix goods-wrap">
+
+        <div id="show_hot_area" class="clearfix goodsBox all_mid all_ms horizontal_goods">
+          <!--{foreach from=$brand.goods_list item=goods name=item}-->
+                     <a class="goodsItem" href="{$goods.url}"> <div  class="img-box"><img src="{$goods.original_img}" alt="{$goods.name|escape:html}" class="goodsimg" /></div>
+                      <div class="goods-brief">{$goods.brief|truncate:20}</div>
+                        <div class="gos-title">{$goods.name|escape:html}</div>
+                      <div class="prices">
+                          <!-- {if $goods.promote_price neq ""} -->
+                        <font class="shop_s">{$lang.promote_price}<b>{$goods.promote_price}</b></font>
+                        <!-- {else}-->
+                        <font class="shop_s"><b>{$goods.shop_price}</b></font>
+                        <!--{/if}-->
+                      </div>
+                      </a>
+          <!--{/foreach}-->
+          <div class="clear0"></div>
+        </div> <div class="clear10"></div>
+
+    </div>
+
+{/foreach}
+{/if}

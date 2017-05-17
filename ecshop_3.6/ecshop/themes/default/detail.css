@@ -1,0 +1,35 @@
+.degreeArea { /*float:left;*/ width: 479px }
+.degreeArea .mt{ display: block; border: 2px solid #Fff; width: 490px; left: -11px; padding: 10px; position: relative; padding-bottom:20px;}
+.degreeArea .qt{ display:none}
+.degreeArea .No_choice{ border:2px solid #fe0c7c; background: url(http://image.meimumeijia.com/anyeye/www/index/1222/no_choice.jpg) no-repeat 230px bottom;    }
+.degreeArea .close{ position: absolute; top: 3px; right: 3px; width: 10px; height: 10px; cursor:pointer; }
+.degreeArea .eye_mini{ float:left;}
+.degreeArea .eye .seclect_degrees{ width:97px; border:1px solid #ccc; height:24px; outline: none;}
+.degreeArea .num { height: 40px;}
+.degreeArea .num_mini{float:left;  margin-left:100px; }
+.degreeArea .eye span.n-span { display: inline-block; float: left; height: 18px; padding: 0 5px; width: 50px; text-align: center; line-height: 18px; }
+.degreeArea .eye_mini span.n-span{ line-height:30px;}
+.degreeArea .num span.n-span { display: inline-block; float: left; height: 30px; padding: 0 5px; width: 50px; text-align: center; line-height: 30px;  }
+.degreeArea .num .glass{ margin-left:10px;}
+.degreeArea .num .glass a{ color:rgb(254,12,124)}
+.degreeArea .eye ul { float: left; margin-left: 5px; width: 418px; }
+.degreeArea .eye ul li { float: left; border: 1px solid #ccc; color: #CCC; height: 18px; width: 34px; text-align: center; line-height: 18px; margin: 0px 5px 10px 5px; cursor:not-allowed; position:relative;}
+.degreeArea .eye ul li span.info{ position:absolute;min-width:80px; width:310px; min-height:26px; overflow:hidden; color:#e13e37; top:22px; right:-140px;box-shadow: 3px 3px 1px #ddd; z-index:5000; display:none;background:#FFF;  }
+.degreeArea .eye ul li span.info h4{ height:5px; display:block; padding:0; margin:0;background:url(http://image.meimumeijia.com/anyeye/www/product/info_bg.png) no-repeat left;}
+.degreeArea .eye ul li span.info p{ display:block; padding:0 0 0 2px; margin:0; line-height:20px;text-align:left;border:1px solid #e13e37;border-top:0;}
+.degreeArea .eye ul li:hover span.info{ display:block;}
+.degreeArea .eye ul li.y1{ color:#000; border:1px solid #ccc; cursor:pointer;}
+.degreeArea .eye ul li.y2{ color:#000; border:1px solid #e13e37; cursor:pointer; background:url(http://image.meimumeijia.com/anyeye/www/index/0617/jiao.png) no-repeat right;}
+.degreeArea .eye ul li.y3{ color:#000; border:1px solid #e13e37; cursor:pointer;}
+.degreeArea .num .tb-stock{ line-height:30px; margin-left:5px;}
+.degreeArea .num .tb-stock .tb-reduce { border-right: 0!important; }
+.degreeArea .num .tb-stock input { display: inline; float: left; margin: 0; padding: 0; width: 48px; height: 22px; font-size: 16px; line-height: 22px; text-align: center; color: #666; border: 1px solid #CCC; outline: 0; background: white; ime-mode: disabled;border-right: 0; }
+.degreeArea .num .tb-stock a,
+.degreeArea .num .tb-stock a:hover { display: none; _display: inline; float: left; width: 22px; height: 22px; border: 1px solid #CCC; line-height: 22px; padding: 0; vertical-align: top; overflow: hidden; text-align: center; background-color: #EDEDED; overflow: hidden; }
+.degreeArea .num .tb-stock a.tb-iconfont { font-family: global-iconfont!important; font-size: 12px; font-style: normal; -webkit-font-smoothing: antialiased; }
+.degreeArea .prod_buy {min-height:90px;margin-top:5px;}
+.degreeArea .num .tb-stock a{ color:#3C3C3C3;}
+.degreeArea .tell{ width:479px; height:68px;background:#f7f6f6; position:relative; margin-top:10px;}
+.degreeArea .tell .people{ color: #fe0c7c; position: absolute; top: 18px; left: 107px; width: 22px; height: 15px; font-size: 12px; overflow: hidden; font-weight: 500 }
+.degreeArea .prod_buy div { height: 50px; text-align: center;  margin: 10px 0px; line-height: 50px; font-size: 18px; margin-right:20px;width:172px; color:#FFF;}
+.divclear { clear: both; height:0px; }
