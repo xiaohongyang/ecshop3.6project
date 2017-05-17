@@ -45,7 +45,7 @@
           {$rank_name} {$next_rank_name}<br />
           <div class="blank5"></div>
           <!--{if $info.is_validate eq 0} -->
-          {$lang.not_validated} <a href="javascript:sendHashMail()" style="color:#006bd0;">{$lang.resend_hash_mail}</a><br />
+          <!--{$lang.not_validated} <a href="javascript:sendHashMail()" style="color:#006bd0;">{$lang.resend_hash_mail}</a><br />-->
           <!--{/if} -->
           <div style="margin:5px 0; border:1px solid #a1675a;padding:10px 20px; background-color:#e8d1c9;"> <img src="images/note.gif" alt="note" />&nbsp;{$user_notice} </div>
           <br />
@@ -66,7 +66,9 @@
             <!--{foreach from=$prompt item=item}-->
             {$item.text}<br />
             <!--{/foreach}-->
-            {$lang.last_month_order}{$info.order_count}{$lang.order_unit}<br />
+            {$lang.last_month_order}{$info.order_count}{$lang.order_unit}
+            <a href="user.php?act=order_list"{if $action eq 'order_list'|| $action eq 'order_detail'}class="curs"{/if}><img src="../images/u3.gif"> {$lang.label_order}</a>
+            <br />
             <!-- {if $info.shipped_order} -->
             {$lang.please_received}<br />
             <!-- {foreach from=$info.shipped_order item=item}-->
@@ -76,6 +78,7 @@
           </div>
           <!-- {/if} -->
           <!-- #用户中心默认显示页面 end-->
+
           <!-- *我的留言 start-->
           <!-- {if $action eq 'message_list'} -->
           <h5><span>{$lang.label_message}</span></h5>
@@ -245,9 +248,9 @@
               <tr>
                 <td align="right" bgcolor="#ffffff">{$lang.label_charset}</td>
                 <td bgcolor="#ffffff"><select name="charset" id="charset">
-                    
+
         {html_options options=$lang_list}
-      
+
                   </select></td>
               </tr>
               <tr>
@@ -453,9 +456,9 @@
               <td colspan="5" bgcolor="#ffffff"><form action="{$smarty.server.PHP_SELF}" method="get">
                   <div id="pager"> {$lang.pager_1}{$pager.record_count}{$lang.pager_2}{$lang.pager_3}{$pager.page_count}{$lang.pager_4} <span> <a href="{$pager.page_first}">{$lang.page_first}</a> <a href="{$pager.page_prev}">{$lang.page_prev}</a> <a href="{$pager.page_next}">{$lang.page_next}</a> <a href="{$pager.page_last}">{$lang.page_last}</a> </span>
                     <select name="page" id="page" onchange="selectPage(this)">
-                      
+
     {html_options options=$pager.array selected=$pager.page}
-    
+
                     </select>
                     <input type="hidden" name="act" value="affiliate" />
                   </div>

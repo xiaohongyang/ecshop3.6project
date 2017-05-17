@@ -213,14 +213,14 @@
        <!-- #BeginLibraryItem "/library/pages.lbi" --><!-- #EndLibraryItem -->
        <!-- {if $no_bind_erp == 1} -->
        <div class="blank5"></div>
-       <h5><span>{$lang.merge_order}</span></h5>
+       <h5 class="none" ><span>{$lang.merge_order}</span></h5>
        <div class="blank"></div>
         <script type="text/javascript">
         {foreach from=$lang.merge_order_js item=item key=key}
           var {$key} = "{$item}";
         {/foreach}
         </script>
-        <form action="user.php" method="post" name="formOrder" onsubmit="return mergeOrder()">
+        <form class="none" action="user.php" method="post" name="formOrder" onsubmit="return mergeOrder()">
           <table width="100%" border="0" cellpadding="5" cellspacing="1" bgcolor="#dddddd">
             <tr>
               <td width="22%" align="right" bgcolor="#ffffff">{$lang.first_order}:</td>

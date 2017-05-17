@@ -12,6 +12,7 @@
 <link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
 {* 包含脚本文件 *}
 {insert_scripts files='common.js,shopping_flow.js'}
+{insert_scripts files='jquery-1.11.3.min.js,flow.js'}
 </head>
 <body>
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
@@ -669,7 +670,7 @@
         <!-- 订单提交成功 -->
         <div class="flowBox" style="margin:30px auto 70px auto;">
          <h6 style="text-align:center; height:30px; line-height:30px;">{$lang.remember_order_number}: <font style="color:red">{$order.order_sn}</font></h6>
-          <table width="99%" align="center" border="0" cellpadding="15" cellspacing="0" bgcolor="#fff" style="border:1px solid #ddd; margin:20px auto;" >
+          <table class="none" width="99%" align="center" border="0" cellpadding="15" cellspacing="0" bgcolor="#fff" style="border:1px solid #ddd; margin:20px auto;" >
             <tr>
               <td align="center" bgcolor="#FFFFFF">
               <!--{if $order.shipping_name}-->{$lang.select_shipping}: <strong>{$order.shipping_name}</strong>，<!--{/if}-->{$lang.select_payment}: <strong>{$order.pay_name}</strong>。{$lang.order_amount}: <strong>{$total.amount_formated}</strong>

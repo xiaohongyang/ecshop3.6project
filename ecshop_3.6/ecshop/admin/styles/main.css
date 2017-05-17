@@ -209,6 +209,9 @@ h1 .action-span6 a:hover {
   border-bottom:none;
 }
 
+.list-div td.first-cell img{
+  background: #f00;
+}
 .list-div td.first-cell{
   font-weight: bold;
   padding-left: 10px;

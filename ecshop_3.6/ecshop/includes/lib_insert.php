@@ -126,6 +126,63 @@ function insert_cart_info()
 }
 
 /**
+ * 判断导航按钮是否是当前页，是则返回'class="cur"'
+ * @return string
+ */
+function insert_menu_cur_class($arr)
+{
+    if(empty($link))
+        $link = "/index.php";
+
+    if(strstr($_SERVER['REQUEST_URI'], $arr['link']) !== false)
+        return 'class="cur"';
+    else
+        return '';
+}
+
+function insert_link_goods($arr) {
+    $id = 0;
+    if(!key_exists('id', $arr)){
+        return '';
+    } else {
+        $id = intval($arr['id']);
+    }
+    $sql = "SELECT
+                distinct goods.goods_id, goods.goods_thumb
+            FROM
+                `ecs_link_goods` AS link 
+            LEFT JOIN ecs_goods as goods
+            on link.link_goods_id = goods.goods_id
+            where is_delete = 0 and (link.goods_id={$id} or goods.goods_id={$id})";
+
+    $res = $GLOBALS['db']->GetAll($sql);
+    $str = <<<STD
+        <div id="colorArea">
+            {itemStr}
+        </div>
+        <div class="divclear"></div>
+STD;
+
+
+
+    if(is_array($res) && count($res)){
+
+        $itemStr = "";
+        foreach ($res as $item){
+
+            $selectcolordiv = $item['goods_id'] == $id ? "Selectcolordiv" :'';
+            $clickEvent = $item['goods_id'] == $id ? "" :'onclick="window.location.href=\'goods.php?id='.$item['goods_id'].'\'"';
+            $itemStr.= ("<div id=\"color_{$item['goods_id']}\" class=\"colordiv {$selectcolordiv} \" {$clickEvent}>
+                            <img src=\"{$item['goods_thumb']}\" alt=\"\">
+                        </div>");
+        }
+    }
+    $str = str_replace('{itemStr}', $itemStr, $str);
+    return $str;
+}
+
+
+/**
  * 调用指定的广告位的广告
  *
  * @access  public

@@ -104,6 +104,7 @@
             <span id="username_notice" style="color:#FF0000"> *</span>
           </td>
         </tr>
+        <!--
         <tr>
           <td align="right">{$lang.label_email}</td>
           <td>
@@ -111,6 +112,7 @@
             <span id="email_notice" style="color:#FF0000"> *</span>
           </td>
         </tr>
+        -->
         <tr>
           <td align="right">{$lang.label_password}</td>
           <td>

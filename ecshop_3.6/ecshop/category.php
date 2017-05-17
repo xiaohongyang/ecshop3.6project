@@ -447,7 +447,7 @@ function category_get_goods($children, $brand, $min, $max, $ext, $size, $page, $
     /* 获得商品列表 */
     $sql = 'SELECT g.goods_id, g.goods_name, g.goods_name_style, g.market_price, g.is_new, g.is_best, g.is_hot, g.shop_price AS org_price, ' .
                 "IFNULL(mp.user_price, g.shop_price * '$_SESSION[discount]') AS shop_price, g.promote_price, g.goods_type, " .
-                'g.promote_start_date, g.promote_end_date, g.goods_brief, g.goods_thumb , g.goods_img ' .
+                'g.promote_start_date, g.promote_end_date, g.goods_brief, g.goods_thumb, g.original_img , g.goods_img ' .
             'FROM ' . $GLOBALS['ecs']->table('goods') . ' AS g ' .
             'LEFT JOIN ' . $GLOBALS['ecs']->table('member_price') . ' AS mp ' .
                 "ON mp.goods_id = g.goods_id AND mp.user_rank = '$_SESSION[user_rank]' " .
@@ -509,6 +509,7 @@ function category_get_goods($children, $brand, $min, $max, $ext, $size, $page, $
         $arr[$row['goods_id']]['promote_price']    = ($promote_price > 0) ? price_format($promote_price) : '';
         $arr[$row['goods_id']]['goods_thumb']      = get_image_path($row['goods_id'], $row['goods_thumb'], true);
         $arr[$row['goods_id']]['goods_img']        = get_image_path($row['goods_id'], $row['goods_img']);
+        $arr[$row['goods_id']]['original_img']        = get_image_path($row['goods_id'], $row['original_img']);
         $arr[$row['goods_id']]['url']              = build_uri('goods', array('gid'=>$row['goods_id']), $row['goods_name']);
     }
 

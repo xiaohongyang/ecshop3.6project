@@ -52,7 +52,7 @@ function register($username, $password, $email, $other = array())
     /* 检查email */
     if (empty($email))
     {
-        $GLOBALS['err']->add($GLOBALS['_LANG']['email_empty']);
+        //$GLOBALS['err']->add($GLOBALS['_LANG']['email_empty']);
     }
     else
     {

@@ -19,6 +19,7 @@ $_LANG['brand_desc'] = '品牌描述';
 $_LANG['brand_logo'] = '品牌LOGO';
 $_LANG['sort_order'] = '排序';
 $_LANG['is_show'] = '是否显示';
+$_LANG['is_recommend'] = '是否推荐';
 $_LANG['drop_brand_logo'] = '删除图标';
 $_LANG['confirm_drop_logo'] = '你确认要删除该图标吗？';
 $_LANG['drop_brand_logo_success'] = '删除品牌logo成功';

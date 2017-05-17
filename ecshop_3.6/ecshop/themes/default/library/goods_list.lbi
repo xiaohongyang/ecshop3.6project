@@ -43,7 +43,7 @@
       >
       <li> <br>
         <a href="javascript:;" id="compareLink" onClick="Compare.add({$goods.goods_id},'{$goods.goods_name|escape:"html"}','{$goods.type}')" class="f6">比较</a> </li>
-      <li class="thumb"><a href="{$goods.url}"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" /></a></li>
+      <li class="thumb"><a href="{$goods.url}"><img src="{$goods.original_img}" alt="{$goods.goods_name}" /></a></li>
       <li class="goodsName"> <a href="{$goods.url}" class="f6">
         <!-- {if $goods.goods_style_name} -->
         {$goods.goods_style_name}<br />
@@ -74,7 +74,7 @@
       <div class="clearfix goodsBox" style="border:none;">
         <!--{foreach from=$goods_list item=goods}-->
         <!-- {if $goods.goods_id} -->
-        <div class="goodsItem"> <a href="{$goods.url}" class="img-box"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></a>
+        <div class="goodsItem"> <a href="{$goods.url}" class="img-box"><img src="{$goods.original_img}" alt="{$goods.goods_name}" class="goodsimg" /></a>
         <div class="goods-info">
             <div class="goods-title"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a></div>
             <div class="goods-ms">

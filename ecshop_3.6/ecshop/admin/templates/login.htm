@@ -12,14 +12,13 @@
 /*body,html { height: 100%; overflow: hidden; }*/
 .panel-icloud .panel-right iframe { height: 300px; margin-top: 15px; }
 .panel-hint{ top: 3%; }
-{if $yunqi_bg}
-.login-body{ background: url({$yunqi_bg}) no-repeat center center; }
-{else}
-.login-body{ background: url(images/login_bg_01.jpg) no-repeat center center; }
-{/if}
+
+
+.login-body{ background: url('images/login_bg.jpg') no-repeat center center; }
 
 .center-wrap .z-bd{
-  width: 582px;
+  /*width: 582px;*/
+  width: 374px;
 }
 .z-bd .login-panel{
   padding: 5px 20px 25px;
@@ -71,7 +70,7 @@ function get_certificate(){
 //-->
 </script>
 </head>
-<body style="height: 100%;padding: 0">
+<body style="height: 100%;padding: 0; background: #101532;;">
 {if !$certi.certificate_id}
 <!--云起激活系统面板-->
 <div class="panel-hint panel-icloud" id="panelCloud">
@@ -99,7 +98,7 @@ function get_certificate(){
 <div class="mask-black" id="CMask"></div>
 <!--遮罩-->
 {/if}
-<div class="form-header">
+<div class="form-header none" >
   <div class="logo"></div>
 </div>
 <form class="login-body" method="post" action="privilege.php" name='theForm' onsubmit="return validate()">
@@ -112,7 +111,7 @@ function get_certificate(){
         <img src="images/ecshop-logo.png" width="373" height="103" border="0" alt="ECSHOP" />
       </div>
     </div>-->
-    <div class="top-ibg-wrap">
+    <div class="top-ibg-wrap none">
       <a style="background: url({$yunqi_ad_link}) no-repeat center;" href="{$yunqi_ad_url}" target="_blank" class="top-ibg-480600"></a>
     </div>
     <div class="z-bd">
@@ -168,7 +167,7 @@ function get_certificate(){
           <a class="link-home cl-link-blue" href="../">{$lang.back_home}</a>
         </div>
       </div>
-      <div class="login-cloud" id="elseLogin">
+      <div class="login-cloud none" id="elseLogin">
         <div class="hd">{$lang.other_login_methods}</div>
         <!--<a id="cloudLogin" href="privilege.php?act=login&type=yunqi" target="_parent">-->
         <span class="btn-tab" id="cloudLogin" href="javascript:void(0)" target="_parent">
@@ -179,7 +178,7 @@ function get_certificate(){
   </div>
   <input type="hidden" name="act" value="signin" />
 </form>
-<div class="copy-right">&copy; 2003-{$now_year} ShopEx,Inc.All rights reserved.</div>
+<div class="copy-right none">&copy; 2003-{$now_year} ShopEx,Inc.All rights reserved.</div>
 <script language="JavaScript">
 
  //三次密码输入错误,出现验证码(火狐触发不了,不过影响不大)

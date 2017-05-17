@@ -192,18 +192,18 @@ var adminId = "{$admin_id}";
 <div id="header-div">
   <div id="logo-div" style="bgcolor:#000000;"><img src="images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" />
     {if $http_host=='localhost' or !$single_url}
-    <span class="noauthorize-icon"><a href="javascript:;"></a></span>
-    <span class="noauthorize"><a href="javascript:;">[未授权用户]</a></span>
+    <!--<span class="noauthorize-icon"><a href="javascript:;"></a></span>-->
+    <!--<span class="noauthorize"><a href="javascript:;">[未授权用户]</a></span>-->
     {else}
     <span class="{if $authorization}authorize{else}noauthorize{/if}-icon"><a href="{$single_url}" target="blank"></a></span>
-    <span class="{if $authorization}authorize{else}noauthorize{/if}"><a href="{$single_url}" target="_blank">{if $authorization}[{$authorize_name}]{else}[未授权用户]{/if}</a></span>
+    <!--<span class="{if $authorization}authorize{else}noauthorize{/if}"><a href="{$single_url}" target="_blank">{if $authorization}[{$authorize_name}]{else}[未授权用户]{/if}</a></span>-->
     {/if}
   </div>
   <div id="license-div" style="bgcolor:#000000;"></div>
   <div id="submenu-div">
     <ul>
-      <li><a href="index.php?act=about_us" target="main-frame">{$lang.about}</a></li>
-      <li><a href="javascript:web_address();">{$lang.help}</a></li>
+      <!--<li><a href="index.php?act=about_us" target="main-frame">{$lang.about}</a></li>-->
+      <!--<li><a href="javascript:web_address();">{$lang.help}</a></li>-->
       <li><a href="../" target="_blank">{$lang.preview}</a></li>
       <li><a href="message.php?act=list" target="main-frame">{$lang.view_message}</a></li>
       <li class="personal-set" onmouseover="showBar(this);" onmouseleave="hideBar(this);">
@@ -223,7 +223,7 @@ var adminId = "{$admin_id}";
         </div>
       </li>
       <li><a href="javascript:window.top.frames['main-frame'].document.location.reload();window.top.frames['header-frame'].document.location.reload()">{$lang.refresh}</a></li>
-      <li><a href="#"  onclick="ShowToDoList()">{$lang.todolist}</a></li>
+      <!--<li><a href="#"  onclick="ShowToDoList()">{$lang.todolist}</a></li>-->
       <li style="border-left:none;"><a href="index.php?act=first" target="main-frame">{$lang.shop_guide}</a></li>
     </ul>
     <div id="send_info" style="padding: 5px 10px 0 0; clear:right;text-align: right; color: #FF9900;width:40%;float: right;">
@@ -423,11 +423,11 @@ var adminId = "{$admin_id}";
     <li><a href="index.php?act=main" target="main-frame">{$lang.admin_home}</a></li>
     <li><a href="privilege.php?act=modif" target="main-frame">{$lang.set_navigator}</a></li>
     {foreach from=$nav_list item=item key=key}
-    <li><a href="{$key}" target="main-frame">{$item}</a></li>
+      <li><a href="{$key}" target="main-frame">{$item}</a></li>
     {/foreach}
     <!--授权按钮-->
     {if $yunqi_login!=1}
-      <li class="btn-bind"><span href="javascript:void(0);" onclick="yunqiLogin();"></span></li>
+      <!--<li class="btn-bind"><span href="javascript:void(0);" onclick="yunqiLogin();"></span></li>-->
     {else}
       {if $certi.use_yunqi_authority!=1}
       <!--去认证-->

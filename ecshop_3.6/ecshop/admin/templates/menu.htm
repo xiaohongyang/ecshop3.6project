@@ -142,7 +142,8 @@ body {
 {if $menu.action}
   <li class="explode"><a href="{$menu.action}" target="main-frame">{$menu.label}</a></li>
 {else}
-  <li class="explode" key="{$k}" name="menu">
+
+  <li class="explode" key="{$k}" name="menu" {if $menu.label == "移动版管理"} style="display: none;" {/if}>
     {$menu.label}
     {if $menu.children}
     <ul>
@@ -154,7 +155,7 @@ body {
   </li>
 {/if}
 {/foreach}
-  <script language="JavaScript" src="http://api.ecshop.com/menu_ext.php?charset={$charset}&lang={$help_lang}"></script>
+  <!--<script language="JavaScript" src="http://api.ecshop.com/menu_ext.php?charset={$charset}&lang={$help_lang}"></script>-->
 </ul>
 </div>
 <div id="help-div" style="display:none">
@@ -171,7 +172,7 @@ var expand_all = "{$lang.expand_all}";
 var collapse = true;
 window.setInterval(crontab,30000);
 function crontab(){
-  Ajax.call('cloud.php?is_ajax=1&act=load_crontab','','', 'GET', 'JSON');
+  //Ajax.call('cloud.php?is_ajax=1&act=load_crontab','','', 'GET', 'JSON');
 }
 {literal}
 function toggleCollapse() {

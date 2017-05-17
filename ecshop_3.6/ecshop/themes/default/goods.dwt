@@ -10,8 +10,11 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+
 {* 包含脚本文件 *}
 {insert_scripts files='common.js'}
+{insert_scripts files='jquery-1.11.3.min.js'}
+{insert_scripts files='details.js'}
 <script type="text/javascript">
 function $id(element) {
   return document.getElementById(element);
@@ -39,9 +42,10 @@ function reg(str){
 </script>
 </head>
 <body>
+
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
 <div class="goods-home">
-  
+
 
 <!--当前位置 start-->
 <div class="block box">
@@ -57,7 +61,8 @@ function reg(str){
       <!--商品图片和相册 start-->
       <div class="imgInfo">
         <!-- {if $pictures}-->
-        <a href="javascript:;" onclick="window.open('gallery.php?id={$goods.goods_id}'); return false;"> <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}"/> </a>
+        <a href="javascript:;" onclick="window.open('gallery.php?id={$goods.goods_id}'); return false;">
+        <img  id="goodsImage" src="{$goods.original_img}" alt="{$goods.goods_name|escape:html}"/> </a>
         <!-- {else} -->
         <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}"/>
         <!-- {/if}-->
@@ -69,11 +74,56 @@ function reg(str){
         <!-- TemplateBeginEditable name="商品相册下广告（宽230px）" --> <!-- TemplateEndEditable --> </div>
       <!--商品图片和相册 end-->
       <div class="textInfo">
+
+
+
         <form action="javascript:addToCart({$goods.goods_id})" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >
           <div class="goods_style_name"> {$goods.goods_style_name} </div>
+
+
+
+            <div id="detailparameter" class="parameterArea">
+                <ul id="parameterArea">
+                    <li>
+                        <span>品　　牌：</span>
+                        <span>
+                  <a href="{$goods.goods_brand_url}"  target="_blank">{$goods.goods_brand}</a>
+              </span>
+                    </li>
+                    <li>
+                        <span>商品规格：</span>
+                        <span>{$goods.goods_norms}</span></li>
+                    <li>
+                        <span>抛弃类型：</span>
+                        <span>{$goods.exprie_type}</span>
+                    </li>
+                    <li>
+                        <span style="letter-spacing:5px;margin-right:0px;">含水量：</span>
+                        <span>{$goods.water_value}</span>
+                    </li>
+                    <li>
+                        <span>产品直径：</span>
+                        <span>{$goods.product_diameter}</span>
+
+                    </li>
+                    <li>
+                        <span>产　　地：</span>
+                        <span>{$goods.product_area}</span>
+                    </li>
+                    <li>
+                        <span>市场价  ：</span>
+                        <span>中国</span>
+                    </li>
+                    <li>
+                        <span>本地价  ：</span>
+                        <span>33</span>
+                    </li>
+
+                </ul>
+            </div>
           <ul>
             <!-- {if $promotion} -->
-            <li class="padd">
+            <li class="padd none">
               <!-- {foreach from=$promotion item=item key=key} 优惠活动-->
               {$lang.activity}
               <!-- {if $item.type eq "snatch"} -->
@@ -89,13 +139,13 @@ function reg(str){
               <!-- {/foreach} -->
             </li>
             <!-- {/if} -->
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd>
                 <!-- {if $cfg.show_goodssn} 显示商品货号-->
                 <strong>{$lang.goods_sn}</strong>{$goods.goods_sn}
                 <!-- {/if} -->
               </dd>
-              <dd class="ddR">
+              <dd class="ddR none">
                 <!-- {if $goods.goods_number neq "" and $cfg.show_goodsnumber} 商品库存-->
                 <!-- {if $goods.goods_number eq 0} -->
                 <strong>{$lang.goods_number}</strong> <font color='red'>{$lang.stock_up}</font>
@@ -105,25 +155,25 @@ function reg(str){
                 <!-- {/if} -->
               </dd>
             </li>
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd>
                 <!-- {if $goods.goods_brand neq "" and $cfg.show_brand} 显示商品品牌-->
                 <strong>{$lang.goods_brand}</strong><a href="{$goods.goods_brand_url}" >{$goods.goods_brand}</a>
                 <!--{/if}-->
               </dd>
-              <dd class="ddR">
+              <dd class="ddR none">
                 <!-- {if $cfg.show_goodsweight} 商品重量-->
                 <strong>{$lang.goods_weight}</strong>{$goods.goods_weight}
                 <!-- {/if} -->
               </dd>
             </li>
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd>
                 <!-- {if $cfg.show_addtime} 上架时间-->
                 <strong>{$lang.add_time}</strong>{$goods.add_time}
                 <!-- {/if} -->
               </dd>
-              <dd class="ddR">
+              <dd class="ddR none">
                 <!--点击数-->
                 <strong>{$lang.goods_click_count}：</strong>{$goods.click_count} </dd>
                 <dd class="ddR">
@@ -131,7 +181,7 @@ function reg(str){
        <strong>{$lang.cum_sales}</strong>{$goods.cum_sales}
        </dd>
             </li>
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd>
                 <!-- {if $cfg.show_marketprice} 市场价格-->
                 <strong>{$lang.market_price}</strong><font class="market">{$goods.market_price}</font> </dd>
@@ -143,7 +193,7 @@ function reg(str){
               <!--{/foreach}-->
             </li>
             <!--{if $volume_price_list } -->
-            <li class="padd"> <font class="f1">{$lang.volume_price}</font><br />
+            <li class="padd none"> <font class="f1">{$lang.volume_price}</font><br />
               <table width="100%" border="0" cellpadding="3" cellspacing="1" bgcolor="#aad6ff">
                 <tr>
                   <td align="center" bgcolor="#FFFFFF"><strong>{$lang.number_to}</strong></td>
@@ -160,11 +210,11 @@ function reg(str){
             <!--{/if}-->
             <!--{if $goods.is_promote and $goods.gmt_end_time } 促销-->
             {insert_scripts files='lefttime.js'}
-            <li class="padd loop" style="margin-bottom:5px; border-bottom:1px dashed #ccc;"> <strong>{$lang.promote_price}</strong><font class="shop">{$goods.promote_price}</font><br />
+            <li class="padd loop none" style="margin-bottom:5px; border-bottom:1px dashed #ccc;"> <strong>{$lang.promote_price}</strong><font class="shop">{$goods.promote_price}</font><br />
               <strong>{$lang.residual_time}</strong> <font class="f4" id="leftTime">{$lang.please_waiting}</font><br />
             </li>
             <!--{/if}-->
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd> <strong>{$lang.amount}：</strong><font id="ECS_GOODS_AMOUNT" class="shop"></font> </dd>
               <dd class="ddR">
                 <!-- {if $goods.give_integral > 0} 购买此商品赠送积分-->
@@ -176,7 +226,7 @@ function reg(str){
             <li class="padd loop" style="margin-bottom:5px; border-bottom:1px dashed #ccc;"> <strong>{$lang.goods_bonus}</strong><font class="shop">{$goods.bonus_money}</font><br />
             </li>
             <!-- {/if} -->
-            <li class="clearfix">
+            <li class="clearfix none">
               <dd> <strong>{$lang.number}：</strong>
                 <input name="number" type="text" id="number" value="1" size="4" onblur="changePrice()" style="border:1px solid #ccc; "/>
               </dd>
@@ -190,6 +240,114 @@ function reg(str){
             <li style="height:30px;padding-top:4px;"> {$lang.goods_free_shipping}<br />
             </li>
             <!-- {/if} -->
+
+            <!-- {* 开始循环所有可选属性 *} -->
+                <!-- {foreach from=$specification item=spec key=spec_key} -->
+
+                <!-- {if $spec.name eq '度数'} -->
+
+                    {insert name='link_goods' id=$goods.goods_id}
+
+                    <div id="degreeArea" class="degreeArea" style="margin-top:13px;">
+                        <div id="degreeArea_full" class="mt">
+                            <div class="close" id="choiceX" style="display: none;"><img src="http://image.meimumeijia.com/anyeye/www/index/1222/x.jpg" onclick="showChoice(false)"></div>
+                            <!-- 度数和数量 -->
+                            <div class="eye">
+                                <span class="n-span">左眼：</span>
+                                <input id="left-sku-id" type="hidden" value="10058228">
+                                <ul id="left-degrees">
+                                    <!--
+                                    <li onclick="DegreeClick()" degree="0" class="y1">0</li>
+                                    <li onclick="DegreeClick()" degree="375" class="y1 y2">375</li>
+                                    <li onclick="DegreeClick()" degree="1000">1000</li>
+                                    -->
+                                    <!-- {foreach from=$spec.values item=value key=key} -->
+                                        <li onclick="DegreeClick()" degree="{$value.id}" class="y1" data-spec="{$value.id}">{$value.label}</li>
+                                    <!-- {/foreach} -->
+                                </ul>
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="num">
+                                <span class="n-span">数量：</span>
+                                <span class="tb-stock">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, -1)"
+                                       hidefocus=""
+                                       class="tb-reduce J_Reduce tb-iconfont">
+                                        <img
+                                            src="http://image.meimumeijia.com/anyeye/www/index/0617/jian.jpg">
+                                    </a>
+                                    <input id="left-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, 1)"
+                                       hidefocus=""
+                                       class="tb-increase J_Increase tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jia.jpg">
+                                    </a>件
+                                </span>
+                                <!--<span class="glass"><a href="#glass">如何换算框架眼镜和隐形眼镜度数</a></span>-->
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="eye">
+                                <span class="n-span">右眼：</span>
+                                <input id="right-sku-id" type="hidden" value="10058216">
+                                <ul id="right-degrees">
+                                    <!-- {foreach from=$spec.values item=value key=key} -->
+                                        <li onclick="DegreeClick()" degree="1000" class="y1" data-spec="{$value.id}">{$value.label}</li>
+                                    <!-- {/foreach} -->
+                                </ul>
+                                <div class="divclear"></div>
+                            </div>
+                            <div class="num">
+                                <span class="n-span">数量：</span>
+                                <span class="tb-stock">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, -1)"
+                                       hidefocus=""
+                                       class="tb-reduce J_Reduce tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jian.jpg">
+                                    </a>
+                                    <input id="right-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)"
+                                       onclick="javascript:onChangeNum(this, 1)"
+                                       hidefocus=""
+                                       class="tb-increase J_Increase tb-iconfont">
+                                        <img src="http://image.meimumeijia.com/anyeye/www/index/0617/jia.jpg">
+                                    </a>件
+                                </span>
+                                <div class="divclear"></div>
+                            </div>
+                        </div>
+
+                        <div id="degreeArea_num" class="qt">
+                            <div class="num"><span class="n-span">数量:</span> <span class="tb-stock"> <a href="javascript:void(0)" onclick="javascript:onChangeNum(this, -1)" hidefocus="" class="tb-reduce J_Reduce tb-iconfont">-</a>
+                                    <input id="common-num" type="text" class="tb-text" value="1" maxlength="8" readonly="readonly">
+                                    <a href="javascript:void(0)" onclick="javascript:onChangeNum(this, 1)" hidefocus="" class="tb-increase J_Increase tb-iconfont">+</a>件 </span>
+                                <div class="divclear"></div>
+                            </div>
+                        </div>
+
+                        <div class="prod_buy">
+                        <div style="float:left; margin:0; margin-right:20px; padding-right:20px; border-right:1px dotted #ccc; overflow:hidden; height:127px;">
+                          <div id="Img1" style="cursor: pointer; width: 172px;" onclick="addToCartXhy()"><img src="http://image.meimumeijia.com/anyeye/www/index/1222/incart.jpg"></div>
+                          <div id="buyPic" style="cursor: pointer; background: rgb(255, 51, 153); border-radius: 8px;" onclick="buyNow()">立即购买</div>
+                          <div id="nobuyPic" style="display:none; background:#666; border-radius:5px;">商品已下架</div>
+                          <div id="StockoutPic" style="display:none ;background:#666; border-radius:5px;">商品缺货</div>
+                          <div id="coloroffsale" style="display:none ; background:#666; border-radius:5px;">颜色已下架</div>
+                          <div id="colorStockout" style="display:none ; background:#666; border-radius:5px;">颜色缺货</div>
+                          </div>
+                          <div style="float:left; width:229px; height:117px;"><a href="http://activity.4inlook.com/weservice" target="_blank"><img src="http://image.meimumeijia.com/anyeye/www/product/QR_code.jpg"></a></div>
+                        </div>
+                    </div>
+                <!-- {/if} -->
+
+                <!-- {/foreach} -->
+            <!-- {* 结束循环可选属性 *} -->
+
+
+
+
+            <!--
             <!-- {* 开始循环所有可选属性 *} -->
             <!-- {foreach from=$specification item=spec key=spec_key} -->
             <li class="padd loop"> <strong>{$spec.name}:</strong><br />
@@ -223,7 +381,9 @@ function reg(str){
             </li>
             <!-- {/foreach} -->
             <!-- {* 结束循环可选属性 *} -->
-            <li class="padd">
+            -->
+
+            <li class="padd none">
               <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                   <td class="td1"><a href="javascript:addToCart({$goods.goods_id})"><img src="images/buybtn1.png" /></a></td>
@@ -234,13 +394,17 @@ function reg(str){
                 </tr>
               </table>
             </li>
-            
+
           </ul>
         </form>
+
       </div>
     </div>
     <div class="blank"></div>
     <!--商品详情end-->
+
+
+
     <!--商品描述，商品属性 START-->
     <div class="box clearfix">
       <div class="box_1 goods-boxg">
@@ -400,10 +564,21 @@ function reg(str){
   <!--right end-->
 </div>
 <div class="blank5"></div>
-
+<input type="hidden" id="goods_id" value='{$goods_id}' />
 <div class="blank"></div>
 </div>
 <!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+
+<div id="Top_cartTip" class="Top_shopcart" style="display: none;">
+  <div class="Top_shopcart_title"> 商品已经成功添加至购物车！</div>
+  <div class="Top_shopcart_main">
+    <div class="Top_cart_line"> <!--您的购物车内有 <span id="Top_cartNum">9</span>件商品<br>-->
+      <span style="display:none">总计价格为：￥ </span><span id="Top_cartValue" style="display:none">711</span></div>
+      <div id="ProductCartTip" style="color: #ff3385;"></div>
+    <div class="Top_shopcart_button"><a class="checkout" onclick="Cart.hideCartTip(false)">继续购物</a><a class="checkin"  href="/flow.php?step=cart" target="_blank">查看购物车</a></div>
+  </div>
+</div>
+
 </body>
 <script type="text/javascript">
 var goods_id = {$goods_id};

@@ -59,7 +59,7 @@ class leancloud_client {
         $key       = self::$appKey;
         $sign      = md5($timestamp . $key);
         $h['X-LC-Sign'] = $sign . "," . $timestamp;
-        
+
         return $h;
     }
 
@@ -83,6 +83,7 @@ class leancloud_client {
     }
 
     public static function request($method, $path, $data, $headers=array()) {
+        return false;
         self::assertInitialized();
         $url  = self::getAPIEndPoint();
         $url .= $path;
@@ -250,6 +251,7 @@ EOT;
      * @throws CloudException, RuntimeException
      */
     public static function uploadToQiniu($token, $content, $name, $mimeType=null) {
+        return false;
         $boundary = md5(microtime());
         $file     = array("name"     => $name,
                           "content"  => $content,

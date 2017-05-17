@@ -1,13 +1,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <!-- {if $pictures}-->
  <div class="clearfix">
-      <span onmouseover="moveLeft()" onmousedown="clickLeft()" onmouseup="moveLeft()" onmouseout="scrollStop()"></span>
+      <span class="spanL" onmouseover="moveLeft()" onmousedown="clickLeft()" onmouseup="moveLeft()" onmouseout="scrollStop()"></span>
       <div class="gallery">
         <div id="demo">
           <div id="demo1" style="float:left">
             <ul>
              <!-- {foreach from=$pictures item=picture}-->
-            <li><a href="gallery.php?id={$id}&amp;img={$picture.img_id}" target="_blank"><img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>
+            <!--<li><a href="gallery.php?id={$id}&amp;img={$picture.img_id}" target="_blank"><img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>-->
+            <li><a href="javascript:void(0)"  target="_blank"><img onclick="document.getElementById('goodsImage').src=this.src" src="{if $picture.original_img}{$picture.original_img}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>
             </li>
             <!--{/foreach}-->
             </ul>
@@ -31,7 +32,7 @@
       var canroll = false;
       if (obox.getElementsByTagName("li").length >= 4) {
         canroll = true;
-        dulbox.innerHTML=obox.innerHTML;
+        //dulbox.innerHTML=obox.innerHTML;
       }
       var step=5;temp=1;speed=50;
       var awidth=obox.offsetWidth;

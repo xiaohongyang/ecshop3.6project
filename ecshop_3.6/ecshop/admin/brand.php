@@ -262,6 +262,21 @@ elseif ($_REQUEST['act'] == 'toggle_show')
 }
 
 /*------------------------------------------------------ */
+//-- 品牌切换是否推荐
+/*------------------------------------------------------ */
+elseif ($_REQUEST['act'] == 'toggle_recommend')
+{
+    check_authz_json('brand_manage');
+
+    $id     = intval($_POST['id']);
+    $val    = intval($_POST['val']);
+
+    $exc->edit("is_recommend='$val'", $id);
+
+    make_json_result($val);
+}
+
+/*------------------------------------------------------ */
 //-- 删除品牌
 /*------------------------------------------------------ */
 elseif ($_REQUEST['act'] == 'remove')
