@@ -20,22 +20,116 @@
     <favorites_list name="ecshop_3.6" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.dwt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_header.lbi" pinned="false" current-in-tab="true">
+      <file leaf-file-name="goods.dwt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="190" column="83" lean-forward="false" selection-start-line="190" selection-start-column="83" selection-end-line="190" selection-end-column="83" />
+              <folding>
+                <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+                <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+                <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_modify.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15770">
+              <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+              <folding>
+                <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+                <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+                <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+                <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+                <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+                <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+                <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+                <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+                <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+                <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+                <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+                <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+                <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+                <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+                <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+                <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+                <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_header.lbi" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -55,12 +149,39 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ecshop_36.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="2396" column="35" lean-forward="false" selection-start-line="2396" selection-start-column="35" selection-end-line="2396" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>water_value</find>
+      <find>含水量</find>
+      <find>product_diameter</find>
+      <find>goods_norms</find>
+      <find>var dulbox=$gg(&quot;demo2&quot;)</find>
+      <find>dulbox</find>
+      <find>市场价</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi" />
+        <option value="$PROJECT_DIR$/ecshop/themes/default/goods.dwt" />
+        <option value="$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql" />
       </list>
     </option>
   </component>
@@ -74,18 +195,11 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1932" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -102,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -110,19 +223,9 @@
               <option name="myItemId" value="ecshop_3.6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.library.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -136,14 +239,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ecshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -161,59 +256,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="library" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop_3.6" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecshop" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="temp" />
+              <option name="myItemId" value="back_db_sql" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,19 +272,106 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\project\ecshop3.6project\ecshop_3.6\ecshop\back_db_sql" />
       <recent name="D:\www\project\ecshop_3.6\ecshop\themes\default\images" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin_\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -251,32 +381,58 @@
       <option name="presentableId" value="Default" />
       <updated>1491893816219</updated>
       <workItem from="1491893817794" duration="1788000" />
+      <workItem from="1494996801348" duration="3427000" />
+      <workItem from="1495018712247" duration="13000" />
+      <workItem from="1495018899087" duration="618000" />
+      <workItem from="1495019531688" duration="453000" />
+      <workItem from="1495020002113" duration="1100000" />
+      <workItem from="1495021266559" duration="37000" />
+      <workItem from="1495022725820" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1788000" />
+    <option name="totallyTimeSpent" value="7455000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21709532" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16399573" sideWeight="0.4723727" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16399573" sideWeight="0.5276273" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15918803" sideWeight="0.5121163" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -288,17 +444,121 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="48" />
+        <state relative-caret-position="45524">
+          <caret line="2396" column="49" lean-forward="false" selection-start-line="2396" selection-start-column="49" selection-end-line="2396" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3078">
+          <caret line="162" column="19" lean-forward="true" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15979">
+          <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+          <folding>
+            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
@@ -306,10 +566,567 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45524">
+          <caret line="2396" column="49" lean-forward="false" selection-start-line="2396" selection-start-column="49" selection-end-line="2396" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2698">
+          <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15979">
+          <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+          <folding>
+            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45524">
+          <caret line="2396" column="49" lean-forward="true" selection-start-line="2396" selection-start-column="49" selection-end-line="2396" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="127" column="30" lean-forward="true" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="54" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15979">
+          <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+          <folding>
+            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45771">
+          <caret line="2409" column="38" lean-forward="false" selection-start-line="2409" selection-start-column="38" selection-end-line="2409" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="54" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15979">
+          <caret line="841" column="19" lean-forward="true" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+          <folding>
+            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45771">
+          <caret line="2409" column="38" lean-forward="true" selection-start-line="2409" selection-start-column="38" selection-end-line="2409" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/index.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15770">
+          <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
+          <folding>
+            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/library/page_header.lbi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="68" lean-forward="false" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/images/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="190" column="83" lean-forward="false" selection-start-line="190" selection-start-column="83" selection-end-line="190" selection-end-column="83" />
+          <folding>
+            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
+            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
+            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2396" column="35" lean-forward="false" selection-start-line="2396" selection-start-column="35" selection-end-line="2396" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
