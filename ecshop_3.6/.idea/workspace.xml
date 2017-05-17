@@ -31,25 +31,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goods.dwt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="goods.dwt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="190" column="83" lean-forward="false" selection-start-line="190" selection-start-column="83" selection-end-line="190" selection-end-column="83" />
+            <state relative-caret-position="266">
+              <caret line="175" column="35" lean-forward="true" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
               <folding>
-                <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-                <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-                <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+                <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+                <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+                <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+                <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+                <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+                <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+                <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+                <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_modify.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_modify.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -61,65 +90,65 @@
             <state relative-caret-position="15770">
               <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
               <folding>
-                <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-                <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-                <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-                <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-                <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-                <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-                <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-                <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-                <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-                <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-                <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-                <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-                <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-                <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-                <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-                <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-                <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-                <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-                <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-                <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-                <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+                <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+                <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+                <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+                <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+                <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+                <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+                <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+                <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+                <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+                <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+                <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+                <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+                <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+                <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+                <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+                <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+                <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+                <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+                <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
               </folding>
             </state>
           </provider>
@@ -180,8 +209,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ecshop/themes/default/goods.dwt" />
         <option value="$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql" />
+        <option value="$PROJECT_DIR$/ecshop/themes/default/goods.dwt" />
       </list>
     </option>
   </component>
@@ -387,12 +416,12 @@
       <workItem from="1495019531688" duration="453000" />
       <workItem from="1495020002113" duration="1100000" />
       <workItem from="1495021266559" duration="37000" />
-      <workItem from="1495022725820" duration="19000" />
+      <workItem from="1495022725820" duration="547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7455000" />
+    <option name="totallyTimeSpent" value="7983000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -405,7 +434,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16399573" sideWeight="0.4723727" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
@@ -462,9 +490,38 @@
         <state relative-caret-position="3078">
           <caret line="162" column="19" lean-forward="true" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
           <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
           </folding>
         </state>
       </provider>
@@ -490,65 +547,65 @@
         <state relative-caret-position="15979">
           <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
           <folding>
-            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+            <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
           </folding>
         </state>
       </provider>
@@ -584,9 +641,38 @@
         <state relative-caret-position="2698">
           <caret line="142" column="18" lean-forward="true" selection-start-line="142" selection-start-column="18" selection-end-line="142" selection-end-column="18" />
           <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
           </folding>
         </state>
       </provider>
@@ -612,65 +698,65 @@
         <state relative-caret-position="15979">
           <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
           <folding>
-            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+            <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
           </folding>
         </state>
       </provider>
@@ -706,9 +792,38 @@
         <state relative-caret-position="2413">
           <caret line="127" column="30" lean-forward="true" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
           <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
           </folding>
         </state>
       </provider>
@@ -726,9 +841,38 @@
         <state relative-caret-position="1995">
           <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="54" />
           <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
           </folding>
         </state>
       </provider>
@@ -746,65 +890,65 @@
         <state relative-caret-position="15979">
           <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
           <folding>
-            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+            <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
           </folding>
         </state>
       </provider>
@@ -848,9 +992,38 @@
         <state relative-caret-position="1995">
           <caret line="105" column="54" lean-forward="false" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="54" />
           <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
           </folding>
         </state>
       </provider>
@@ -868,65 +1041,65 @@
         <state relative-caret-position="15979">
           <caret line="841" column="19" lean-forward="true" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
           <folding>
-            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+            <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
           </folding>
         </state>
       </provider>
@@ -1022,65 +1195,65 @@
         <state relative-caret-position="15770">
           <caret line="841" column="19" lean-forward="false" selection-start-line="841" selection-start-column="19" selection-end-line="841" selection-end-column="19" />
           <folding>
-            <marker date="1494998414685" expanded="true" signature="7670:7831" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="7933:8052" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8156:8276" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8339:8403" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="11986:12155" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13072:13195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="13688:13812" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14317:14381" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
-            <marker date="1494998414685" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
-            <marker date="1494998414685" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
-            <marker date="1494998414685" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
-            <marker date="1494998414685" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
-            <marker date="1494998414685" expanded="true" signature="43734:43830" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
-            <marker date="1494998414685" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="64111:64195" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="64892:64969" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65025:65102" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65139:65216" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65253:65327" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65364:65437" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65474:65550" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65587:65663" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65700:65775" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65812:65886" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="65923:66002" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66039:66106" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66143:66235" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66272:66349" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66386:66463" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66500:66578" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="66688:66764" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="68451:68543" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="71278:71386" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="71725:71829" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
-            <marker date="1494998414685" expanded="true" signature="73864:73954" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
-            <marker date="1494998414685" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
-            <marker date="1494998414685" expanded="true" signature="76782:76908" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="83464:83540" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
-            <marker date="1494998414685" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
-            <marker date="1494998414685" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
-            <marker date="1494998414685" expanded="true" signature="91487:91548" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94624:94743" ph="DELETE FROM " />
-            <marker date="1494998414685" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+            <marker date="1495022875375" expanded="true" signature="7670:7831" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="7933:8052" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8156:8276" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8339:8403" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="8537:8618" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="11986:12155" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13072:13195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="13688:13812" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14317:14381" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="14899:14989" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1495022875375" expanded="true" signature="15841:15927" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1495022875375" expanded="true" signature="19720:19874" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="30888:30918" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="33727:35210" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="35266:36767" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="40571:40664" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1495022875375" expanded="true" signature="40885:41132" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1495022875375" expanded="true" signature="43213:43400" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1495022875375" expanded="true" signature="43734:43830" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="46213:46404" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1495022875375" expanded="true" signature="53728:53805" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="54473:54550" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="55571:55643" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="64111:64195" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="64892:64969" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65025:65102" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65139:65216" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65253:65327" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65364:65437" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65474:65550" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65587:65663" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65700:65775" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65812:65886" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="65923:66002" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66039:66106" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66143:66235" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66272:66349" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66386:66463" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66500:66578" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="66688:66764" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="68451:68543" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="69869:70052" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="70122:70301" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="71278:71386" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="71725:71829" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="72849:73023" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1495022875375" expanded="true" signature="73864:73954" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="74981:75098" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1495022875375" expanded="true" signature="75829:75983" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1495022875375" expanded="true" signature="76782:76908" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="77776:77890" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="80617:80731" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="83464:83540" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="86471:86604" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1495022875375" expanded="true" signature="88489:88704" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1495022875375" expanded="true" signature="91035:91145" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1495022875375" expanded="true" signature="91487:91548" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94624:94743" ph="DELETE FROM " />
+            <marker date="1495022875375" expanded="true" signature="94981:95188" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
           </folding>
         </state>
       </provider>
@@ -1103,18 +1276,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="190" column="83" lean-forward="false" selection-start-line="190" selection-start-column="83" selection-end-line="190" selection-end-column="83" />
-          <folding>
-            <marker date="1494998003751" expanded="true" signature="26427:26481" ph="..." />
-            <marker date="1494998003751" expanded="true" signature="26530:26536" ph=" " />
-            <marker date="1494998003751" expanded="true" signature="26536:26542" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/ecshop_36.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1125,9 +1286,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecshop/back_db_sql/db_modify.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecshop/themes/default/goods.dwt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="175" column="35" lean-forward="true" selection-start-line="175" selection-start-column="35" selection-end-line="175" selection-end-column="35" />
+          <folding>
+            <marker date="1494997236766" expanded="false" signature="4993:5046" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5195:5248" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5402:5455" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="5610:5641" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="9284:9333" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10111:10160" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10498:10521" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="10892:10920" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11304:11320" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="11452:11466" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="16916:17037" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17088:17118" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17275:17342" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17426:17475" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17544:17593" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17662:17712" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17783:17833" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="17917:17955" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="21525:21535" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="23069:23075" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23075:23081" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="23670:23692" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24464:24482" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24618:24672" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="24949:24961" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26408:26462" ph="..." />
+            <marker date="1494997236766" expanded="true" signature="26511:26517" ph=" " />
+            <marker date="1494997236766" expanded="true" signature="26517:26523" ph=" " />
+            <marker date="1494997236766" expanded="false" signature="28737:28751" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="28948:28960" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29009:29021" ph="..." />
+            <marker date="1494997236766" expanded="false" signature="29078:29093" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
