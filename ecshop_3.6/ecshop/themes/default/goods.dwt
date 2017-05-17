@@ -103,12 +103,21 @@ function reg(str){
                     </li>
                     <li>
                         <span>产品直径：</span>
+<<<<<<< HEAD
                         <span>{$goods.product_diameter}</span>
 
                     </li>
                     <li>
                         <span>产　　地：</span>
                         <span>{$goods.product_area}</span>
+=======
+                        <span>
+                  <a href="ProductSerachList?diameter1=14.2&amp;diameter2=14.2" target="_blank">14.2</a>mm</span>
+                    </li>
+                    <li>
+                        <span>产　　地：</span>
+                        <span>中国</span>
+>>>>>>> remotes/origin/develop
                     </li>
                     <li>
                         <span>市场价  ：</span>
