@@ -375,7 +375,8 @@
                     addCount -= 1;
                 });
         }
-        if(int01)
+
+        /*if(int01)
             clearInterval(int01)
         var int01 = setInterval(function () {
             if(result != -1 && addCount == 0){
@@ -385,19 +386,23 @@
                     $scope.toast('添加到购物车失败');
                 clearInterval(int01);
             }
-        }, 100)
+        }, 100)*/
 
 
       }
 
       function _touchPurchase() {
-        if ( !_checkCanPurchase() )
-          return;
+        // if ( !_checkCanPurchase() )
+        //   return;
 
         if ( !AppAuthenticationService.getToken() ) {
           $scope.goSignin();
           return;
         }
+
+        _touchAddCart();
+        $state.go('cart-select', {});
+        return;
 
         var product = $scope.product;
         var attrs = [].concat($scope.currentAttrs).concat($scope.optionalAttrs);
@@ -654,12 +659,12 @@
 
       _reload();
 
-      /*var intInit = setInterval(function(){
+      var intInit = setInterval(function(){
           if($('.group-items').eq(1).find('.group-item').length){
               $('.group-items').eq(1).find('.group-item').eq(0).trigger('click')
               clearInterval(intInit)
           }
-      },200);*/
+      },200);
 
   }
 
