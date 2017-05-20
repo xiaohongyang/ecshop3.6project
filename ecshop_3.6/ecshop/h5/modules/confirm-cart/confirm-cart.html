@@ -54,8 +54,8 @@
 
     <!-- Form -->
     <div class="confirm-form" ng-if="goods && goods.length">
-        <div class="form-item" ng-click="touchExpress()">
-            <div class="item-title">
+        <div class="form-item hide" ng-click="touchExpress()">
+            <div class="item-title ">
                 配送方式
             </div>
             <div class="item-value">
@@ -63,7 +63,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item" ng-click="touchInvoice()">
+        <div class="form-item hide" ng-click="touchInvoice()">
             <div class="item-title">
                 发票类型
             </div>
@@ -72,7 +72,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item" ng-click="touchCashgift()">
+        <div class="form-item hide" ng-click="touchCashgift()">
             <div class="item-title">
                 使用红包
             </div>
@@ -81,7 +81,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item" ng-if="scoreInfo">
+        <div class="form-item hide" ng-if="scoreInfo">
             <div class="item-title">
                 使用积分
             </div>
@@ -124,7 +124,7 @@
             <div class="total-price">￥{{priceInfo.total_price || '0.00'}}</div>
             <div class="total-discount">已优惠￥{{all_discount || '0.00'}}</div>
         </div>
-        <div class="submit-button dark" ng-class="{active: canPurchase}" ng-click="touchSubmit()">
+        <div class="submit-button dark active" ng-class="{active: canPurchase}" ng-click="touchSubmit()">
             提交订单并支付
         </div>
     </div>

@@ -169,3 +169,8 @@ svg {
    */
   overflow: hidden;
 }
+
+
+.hide{
+  display: none !important;
+}
