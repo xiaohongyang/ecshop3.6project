@@ -16,11 +16,14 @@
 
       $scope.currentStock = null;
       $scope.currentAttrs = [];
+      $scope.currentAttrsRight = [];
       $scope.input = {
-          currentAmount: 1
+          currentAmount: 1,
+          currentAmountRight: 1
       };
 
       $scope.optionalAttrs = [];
+      $scope.optionalAttrsRight = [];
       $scope.canPurchase = false;
 
       $scope.product = null;
@@ -30,7 +33,11 @@
 
       $scope.touchAmountSub = _touchAmountSub;
       $scope.touchAmountAdd = _touchAmountAdd;
+
+      $scope.touchAmountSubRight = _touchAmountSubRight;
+      $scope.touchAmountAddRight = _touchAmountAddRight;
       $scope.touchAttr = _touchAttr;
+      $scope.touchAttrRight = _touchAttrRight;
       $scope.touchLike = _touchLike;
       $scope.touchComments = _touchComments;
       $scope.touchComment = _touchComment;
@@ -42,6 +49,7 @@
 
       $scope.formatGrade = _formatGrade;
       $scope.isAttrSelected = _isAttrSelected;
+      $scope.isAttrSelectedRight = _isAttrSelectedRight;
 
       $scope.isLoading = false;
       $scope.isLoaded = false;
@@ -59,12 +67,33 @@
         }
 
         var amount = parseInt($scope.input.currentAmount);
-        if ( amount <= 1 ){
-            $scope.toast('受不了了，宝贝不能再少了');
+        if ( amount < 1 ){
+            //$scope.toast('宝贝不能再少了');
             return;
         }
 
           $scope.input.currentAmount = '' + (amount - 1);
+      }
+
+      function _touchAmountSubRight() {
+        if ( !_checkCanPurchase() )
+          return;
+
+        if ( !$scope.product )
+          return;
+
+        if ( $scope.product.stock && $scope.product.stock.length ) {
+          if ( !$scope.currentStock )
+            return;
+        }
+
+        var amount = parseInt($scope.input.currentAmountRight);
+        if ( amount < 1 ){
+            //$scope.toast('受不了了，宝贝不能再少了');
+            return;
+        }
+
+          $scope.input.currentAmountRight = '' + (amount - 1);
       }
 
       function _refreshAmount(){
@@ -104,6 +133,34 @@
 
       }
 
+      function _touchAmountAddRight() {
+        if ( !_checkCanPurchase() )
+          return;
+
+        if ( !$scope.product )
+          return;
+
+        if ( $scope.product.stock && $scope.product.stock.length ) {
+          if ( !$scope.currentStock )
+            return;
+
+          var amount = parseInt($scope.input.currentAmountRight);
+          var stock = parseInt($scope.currentStock.stock_number);
+          if ( amount >= stock )
+            return;
+
+            $scope.input.currentAmountRight = '' + (amount + 1);
+        } else {
+          var amount = parseInt($scope.input.currentAmountRight);
+          var stock = $scope.product.good_stock;
+          if ( amount >= stock )
+            return;
+
+            $scope.input.currentAmountRight = '' + (amount + 1);
+        }
+
+      }
+
       function _touchAttr( property, attr ) {
         if ( !$scope.product )
           return;
@@ -119,6 +176,7 @@
             attrs.splice( index, 1 );
           }
           $scope.optionalAttrs = attrs;
+          $scope.optionalAttrsRight = attrs;
         } else {
           var stock = null;
           var attrs = [].concat( $scope.currentAttrs );
@@ -154,6 +212,62 @@
           }
 
           $scope.currentAttrs = attrs;
+          $scope.currentStock = stock;
+          $scope.canPurchase = _checkCanPurchase();
+        }
+      }
+
+      function _touchAttrRight( property, attr ) {
+        if ( !$scope.product )
+          return;
+
+        var product = $scope.product;
+
+        if ( attr.is_multiselect ) {
+          var attrs = [].concat( $scope.optionalAttrs );
+          var index = attrs.indexOf( attr.id );
+          if ( -1 == index ) {
+            attrs.push( attr.id );
+          } else {
+            attrs.splice( index, 1 );
+          }
+          $scope.optionalAttrs = attrs;
+          $scope.optionalAttrsRight = attrs;
+        } else {
+          var stock = null;
+          var attrs = [].concat( $scope.currentAttrsRight );
+          var index = attrs.indexOf( attr.id );
+
+          attrs.push( attr.id );
+
+          for ( var i in property.attrs ) {
+            if ( property.attrs[i].id != attr.id ) {
+              var index = attrs.indexOf( property.attrs[i].id );
+              if ( -1 != index ) {
+                attrs.splice( index, 1 );
+              }
+            }
+          }
+
+          attrs = attrs.filter(function( attr, index, self ){
+            return self.indexOf(attr) === index;
+          });
+
+          attrs.sort(function(a, b){
+            return a - b;
+          })
+
+          if ( attrs.length ) {
+            var key = attrs.join('|');
+            for ( var i = 0; i < product.stock.length; ++i ) {
+              if ( product.stock[i].goods_attr == key ) {
+                stock = product.stock[i];
+                break;
+              }
+            }
+          }
+
+          $scope.currentAttrsRight = attrs;
           $scope.currentStock = stock;
           $scope.canPurchase = _checkCanPurchase();
         }
@@ -223,13 +337,57 @@
         var attrs = [].concat($scope.currentAttrs).concat($scope.optionalAttrs);
         var amount = $scope.input.currentAmount;
 
-        CartModel
-        .add(productId, attrs, amount)
-        .then(function(succeed){
-            if ( succeed ) {
-              $scope.toast('已添加到购物车');
+        var attrsRight = [].concat($scope.currentAttrsRight).concat($scope.optionalAttrsRight);
+        var amountRight = $scope.input.currentAmountRight;
+
+        var result = -1;
+        var addCount = 0;
+        if(amount > 0) {
+          addCount += 1;
+        }
+        if(amountRight > 0) {
+          addCount += 1;
+        }
+        if(amount > 0) {
+            CartModel
+                .add(productId, attrs, amount)
+                .then(function(succeed){
+                    if ( succeed ) {
+                        result = true;
+                        //$scope.toast('已添加到购物车');
+                    } else {
+                        result = false;
+                    }
+                    addCount -= 1;
+                });
+        }
+
+        if(amountRight > 0) {
+            CartModel
+                .add(productId, attrsRight, amountRight)
+                .then(function(succeed){
+                    if ( succeed ) {
+                        result = true;
+                        //$scope.toast('已添加到购物车');
+                    } else {
+                        result = false
+                    }
+                    addCount -= 1;
+                });
+        }
+        if(int01)
+            clearInterval(int01)
+        var int01 = setInterval(function () {
+            if(result != -1 && addCount == 0){
+                if(result)
+                    $scope.toast('已添加到购物车');
+                else
+                    $scope.toast('添加到购物车失败');
+                clearInterval(int01);
             }
-        });
+        }, 100)
+
+
       }
 
       function _touchPurchase() {
@@ -295,6 +453,13 @@
           return $scope.optionalAttrs.indexOf(attr.id) == -1 ? false : true;
         } else {
           return $scope.currentAttrs.indexOf(attr.id) == -1 ? false : true;
+        }
+      }
+      function _isAttrSelectedRight( attr ) {
+        if ( attr.is_multiselect ) {
+          return $scope.optionalAttrsRight.indexOf(attr.id) == -1 ? false : true;
+        } else {
+          return $scope.currentAttrsRight.indexOf(attr.id) == -1 ? false : true;
         }
       }
 
@@ -488,6 +653,14 @@
       }
 
       _reload();
+
+      /*var intInit = setInterval(function(){
+          if($('.group-items').eq(1).find('.group-item').length){
+              $('.group-items').eq(1).find('.group-item').eq(0).trigger('click')
+              clearInterval(intInit)
+          }
+      },200);*/
+
   }
 
 })();

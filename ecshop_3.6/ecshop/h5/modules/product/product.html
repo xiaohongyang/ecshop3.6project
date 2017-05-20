@@ -41,7 +41,7 @@
         <!-- Attr -->
         <div class="product-attr" ng-if="isLoaded && product && product.properties && product.properties.length && product.good_stock">
             <div class="attr-group" ng-repeat="property in product.properties track by $index">
-                <div class="group-name">{{property.name}}</div>
+                <div class="group-name">左眼{{property.name}}</div>
                 <div class="group-items">
                     <div class="group-item" ng-class="{active: isAttrSelected(value)}" ng-repeat="value in property.attrs track by $index" ng-click="touchAttr(property,value)">
                         {{value.attr_name}}
@@ -64,6 +64,39 @@
                 <input type="text" class="input-count" ng-class="{active: input.currentAmount > 0}" ng-model="input.currentAmount"  ng-change="refreshAmount()">
                 </input>
                 <div class="input-button" ng-class="{active: input.currentAmount > 0}" ng-click="touchAmountAdd()">
+                    <img src="image/ind-add.png">
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Attr -->
+        <div class="product-attr" ng-if="isLoaded && product && product.properties && product.properties.length && product.good_stock">
+            <div class="attr-group" ng-repeat="property in product.properties track by $index">
+                <div class="group-name">右眼{{property.name}}</div>
+                <div class="group-items">
+                    <div class="group-item" ng-class="{active: isAttrSelectedRight(value)}" ng-repeat="value in property.attrs track by $index" ng-click="touchAttrRight(property,value)">
+                        {{value.attr_name}}
+                        <span ng-if="value.attr_price > 0">
+                            (加￥{{value.attr_price| number:2}})
+                        </span>
+                    </div>
+                </div>
+                <div class="attr-line" ng-if="attr !== product.attrs[product.attrs.length-1]"></div>
+            </div>
+        </div>
+
+        <!-- Amount -->
+        <div class="product-amount" ng-if="isLoaded && product && product.good_stock">
+            <div class="amount-name">数量</div>
+            <div class="amount-input" ng-class="{active: canPurchase}">
+                <div class="input-button" ng-class="{active: input.currentAmountRight > 1}" ng-click="touchAmountSubRight()">
+                    <img src="image/ind-sub.png">
+                </div>
+                <input type="text" class="input-count" ng-class="{active: input.currentAmountRight > 0}" ng-model="input.currentAmountRight"  ng-change="refreshAmount()">
+                </input>
+                <div class="input-button" ng-class="{active: input.currentAmountRight > 0}" ng-click="touchAmountAddRight()">
                     <img src="image/ind-add.png">
                 </div>
             </div>
