@@ -43,7 +43,7 @@ class Ad extends BaseModel
                 $row['photo'] = [
                     'width' => null,
                     'height' => null,
-                    'thumb' => $dir . $row['thumb'],
+                    'thumb' => env('SHOP_URL') . $dir . $row['thumb'],
                     'large' => $dir . $row['large']
                 ];
             }
