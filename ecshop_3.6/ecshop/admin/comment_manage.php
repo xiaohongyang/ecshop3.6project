@@ -334,8 +334,14 @@ function get_comment_list()
     }
 
     $sort = array('comment_id','user_name','comment_type','id_value','ip_address','add_time');
-    $filter['sort_by'] = in_array($_REQUEST['sort_by'], $sort) ? trim($_REQUEST['sort_by']) : 'add_time';
-    $filter['sort_order'] = empty($_REQUEST['sort_order']) ? 'DESC' : trim($_REQUEST['sort_order']);
+
+    //$filter['sort_by'] = in_array($_REQUEST['sort_by'], $sort) ? trim($_REQUEST['sort_by']) : 'add_time';
+    //$filter['sort_order'] = empty($_REQUEST['sort_order']) ? 'DESC' : trim($_REQUEST['sort_order']);
+    
+    $sort = array('comment_id','comment_rank','add_time','id_value','status'); 
+    $filter['sort_by'] = in_array($_REQUEST['sort_by'], $sort) ? trim($_REQUEST['sort_by']) : 'add_time'; 
+    $filter['sort_order'] = empty($_REQUEST['sort_order']) ? 'DESC' : 'ASC';
+    
 
 //    $filter['sort_by']      = empty($_REQUEST['sort_by']) ? 'add_time' : trim($_REQUEST['sort_by']);
 //    $filter['sort_order']   = empty($_REQUEST['sort_order']) ? 'DESC' : trim($_REQUEST['sort_order']);
