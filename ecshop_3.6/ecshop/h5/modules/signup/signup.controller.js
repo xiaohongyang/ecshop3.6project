@@ -39,7 +39,8 @@
 				$scope.signupMobile = {show:false};
 			}
 		}
-
+        //自动选择邮箱注册
+        _touchTabEmail();
     	$scope.state=
             {
 	            username : "",
