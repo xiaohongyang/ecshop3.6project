@@ -40,7 +40,7 @@
 			}
 		}
         //自动选择邮箱注册
-        _touchTabEmail();
+        _touchTabMobile();
     	$scope.state=
             {
 	            username : "",
@@ -188,10 +188,10 @@
                 return;
             }
 
-			if ( !code || code.length != 6 ) {
-                $scope.toast('请输入正确的手机验证码');
-                return;
-            }
+			// if ( !code || code.length != 6 ) {
+   //              $scope.toast('请输入正确的手机验证码');
+   //              return;
+   //          }
 
             if ( !password || password.length < 6 ) {
                 $scope.toast('请输入正确的密码');

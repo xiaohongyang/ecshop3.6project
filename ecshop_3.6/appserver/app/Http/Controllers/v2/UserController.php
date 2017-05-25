@@ -72,7 +72,7 @@ class UserController extends Controller
             'device_id'     => 'string',
             'password'      => 'required|min:6|max:20',
             'mobile'        => 'required|string',
-            'code'          => 'required|string|digits:6',
+            //'code'          => 'required|string|digits:6',
             'invite_code'   => 'integer', 
         ];
 

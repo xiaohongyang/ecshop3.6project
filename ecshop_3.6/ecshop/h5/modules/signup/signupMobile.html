@@ -5,7 +5,7 @@
 
 	<div class="signup-hline"></div>
 
-	<div class="signup-field-code">
+	<div class="signup-field-code hide">
 		<input type="text" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)" onblur="this.v();" class="field-input" placeholder="请输入手机验证码" ng-model="state.mobile_code"/>
 		<div class="{{paraclass}}" ng-click="toucheMobileCode()">{{paracont}}</div>
 	</div>
