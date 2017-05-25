@@ -117,6 +117,10 @@
 
 			var goods = $scope.goods;
 			var consignee = $scope.consignee;
+			//设置默认收货方式xhy
+            if(!$scope.express){
+                $scope.express = {id: 5, code: "sto_express", name: "申通快递", desc: "江、浙、沪地区首重为15元/KG，其他地区18元/KG， 续重均为5-6元/KG， 云南地区为8元", price: {first: 0, step: 0}};
+            }
 			var express = $scope.express;
 			var coupon = $scope.coupon;
 			var cashgift = $scope.cashgift;

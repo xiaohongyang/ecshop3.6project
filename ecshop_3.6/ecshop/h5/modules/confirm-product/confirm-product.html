@@ -60,7 +60,7 @@
 
     <!-- Form -->
     <div class="confirm-form" ng-if="selectedGoods && selectedGoods.length">
-        <div class="form-item" ng-click="touchExpress()">
+        <div class="form-item hide" ng-click="touchExpress()">
             <div class="item-title">
                 配送方式
             </div>
@@ -69,7 +69,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item" ng-click="touchInvoice()">
+        <div class="form-item hide" ng-click="touchInvoice()">
             <div class="item-title">
                 发票类型
             </div>
@@ -78,7 +78,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item" ng-click="touchCashgift()">
+        <div class="form-item hide" ng-click="touchCashgift()">
             <div class="item-title">
                 使用红包
             </div>
@@ -87,7 +87,7 @@
             </div>
             <img class="item-arrow" src="image/nav-right.png"/>
         </div>
-        <div class="form-item">
+        <div class="form-item hide">
             <div class="item-title">
                 使用积分
             </div>
@@ -101,7 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="form-item">
+        <div class="form-item ">
             <div class="item-textarea">
                 <textarea type="text" placeholder="买家留言" ng-model="input.comment"  ng-change="refreshComment()"></textarea>
             </div>
