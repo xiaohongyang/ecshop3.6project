@@ -193,7 +193,7 @@ class integrate
             return false;
         }
         /* 检查email是否重复 */
-        $sql = "SELECT " . $this->field_id .
+        /*$sql = "SELECT " . $this->field_id .
                " FROM " . $this->table($this->user_table).
                " WHERE " . $this->field_email . " = '$email'";
         if ($this->db->getOne($sql, true) > 0)
@@ -201,7 +201,7 @@ class integrate
             $this->error = ERR_EMAIL_EXISTS;
 
             return false;
-        }
+        }*/
 
         $post_username = $username;
 
