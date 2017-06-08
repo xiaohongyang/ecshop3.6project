@@ -3171,6 +3171,7 @@ h3.border span,
 .indexpage .goods-wrap {
   height: auto;
   overflow: hidden;
+  padding-top : 5px;
 }
 .indexpage .goods-wrap .goods-leftad img {
   height: 236px !important;
@@ -4050,3 +4051,41 @@ h3.border span,
   background-position: 8px 10px;
   background-image: url(http://image.meimumeijia.com/anyeye/www/index/1222/tips_icon.jpg);
 }
+
+.category-body .Area .prclist .centerPadd .goodsItem .img-box img{
+  width: 290px;
+  height: 380px;
+  max-width: none;
+  max-height: none;
+}
+
+.category-body .Area .prclist .centerPadd .goodsItem .img-box{
+  width: 290px;
+  margin: 0px 0px 0px 0px;
+  height: 380px;
+  overflow: hidden;
+}
+
+.category-body .Area .prclist .centerPadd .goodsItem{
+}
+
+.category-body .Area .prclist .centerPadd .goodsItem .goods-info{
+  height: 30px;
+  padding-bottom: 0;
+  border-top: 0px;
+  padding-top: 8px;
+}
+.category-body .Area .prclist .centerPadd .goodsItem .goods-info .goods-title{
+   margin-bottom: 6px;
+}
+.category-body .Area .prclist .centerPadd .goodsItem .goods-info .goods-ms{
+  padding: 0;
+}
+
+.category-body .Area .prclist .centerPadd .goodsItem .goods-info .goods-ms{
+  display: none;
+}
+.category-body .Area .prclist .centerPadd .goodsItem .goods-info .price-box{
+  padding-top: 0px;
+}
+

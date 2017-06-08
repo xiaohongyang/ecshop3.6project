@@ -17,7 +17,7 @@
 {insert_scripts files='common.js,global.js,compare.js'}
 
 </head>
-<body>
+<body class='category_page'>
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
 <!--当前位置 start-->
  <div class="category-body">
