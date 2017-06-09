@@ -49,7 +49,7 @@
               <!-- {foreach from=$brand_cat_list item=cat} -->
             <a href="{$cat.url}" class="f6">{$cat.cat_name|escape:html} {if $cat.goods_count}({$cat.goods_count}){/if}</a>
               <!-- {/foreach} -->
-            </div>  
+            </div>
          </td>
         </tr>
       </table>
@@ -57,7 +57,7 @@
      </div>
     </div>
     <div class="blank5"></div>
-  
+
    <!-- TemplateBeginEditable name="右边区域" -->
 <!-- #BeginLibraryItem "/library/recommend_best.lbi" -->
 
@@ -105,7 +105,7 @@
 <!-- TemplateEndEditable -->
 
 
-  </div>  
+  </div>
   <!--right end-->
 </div>
 
