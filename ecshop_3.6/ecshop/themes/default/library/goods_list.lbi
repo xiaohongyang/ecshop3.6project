@@ -74,7 +74,7 @@
       <div class="clearfix goodsBox" style="border:none;">
         <!--{foreach from=$goods_list item=goods}-->
         <!-- {if $goods.goods_id} -->
-        <div class="goodsItem"> <a href="{$goods.url}" class="img-box"><img src="{$goods.original_img}" alt="{$goods.goods_name}" class="goodsimg" /></a>
+        <div class="goodsItem"> <a href="{$goods.url}" class="img-box"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></a>
         <div class="goods-info">
             <div class="goods-title"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a></div>
             <div class="goods-ms">
