@@ -42,7 +42,7 @@
           <div class="blank"></div>
           {$lang.last_time}: {$info.last_time}<br />
           <div class="blank5"></div>
-          {$rank_name} {$next_rank_name}<br />
+          <!--{$rank_name} {$next_rank_name}<br /> -->
           <div class="blank5"></div>
           <!--{if $info.is_validate eq 0} -->
           <!--{$lang.not_validated} <a href="javascript:sendHashMail()" style="color:#006bd0;">{$lang.resend_hash_mail}</a><br />-->
@@ -50,7 +50,7 @@
           <div style="margin:5px 0; border:1px solid #a1675a;padding:10px 20px; background-color:#e8d1c9;"> <img src="images/note.gif" alt="note" />&nbsp;{$user_notice} </div>
           <br />
           <br />
-          <div class="f_l" style="width:350px;">
+          <div class="f_l" style="width:350px; display: none;">
             <h5><span>{$lang.your_account}</span></h5>
             <div class="blank"></div>
             {$lang.your_surplus}:<a href="user.php?act=account_log" style="color:#006bd0;">{$info.surplus}</a><br />
@@ -60,7 +60,7 @@
             {$lang.your_bonus}:<a href="user.php?act=bonus" style="color:#006bd0;">{$info.bonus}</a><br />
             {$lang.your_integral}:{$info.integral}<br />
           </div>
-          <div class="f_r" style="width:350px;">
+          <div class="f_l" style="width:350px;">
             <h5><span>{$lang.your_notice}</span></h5>
             <div class="blank"></div>
             <!--{foreach from=$prompt item=item}-->
