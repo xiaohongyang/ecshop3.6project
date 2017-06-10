@@ -329,14 +329,21 @@ function reg(str){
 
                         <div class="prod_buy">
                         <div style="float:left; margin:0; margin-right:20px; padding-right:20px; border-right:1px dotted #ccc; overflow:hidden; height:127px;">
-                          <div id="Img1" style="cursor: pointer; width: 172px;" onclick="addToCartXhy()"><img src="http://image.meimumeijia.com/anyeye/www/index/1222/incart.jpg"></div>
+                          <div id="Img1" style="cursor: pointer; width: 172px;" onclick="addToCartXhy()">
+                            <img src="http://image.meimumeijia.com/anyeye/www/index/1222/incart.jpg">
+
+
+                           </div>
                           <div id="buyPic" style="cursor: pointer; background: rgb(255, 51, 153); border-radius: 8px;" onclick="buyNow()">立即购买</div>
                           <div id="nobuyPic" style="display:none; background:#666; border-radius:5px;">商品已下架</div>
                           <div id="StockoutPic" style="display:none ;background:#666; border-radius:5px;">商品缺货</div>
                           <div id="coloroffsale" style="display:none ; background:#666; border-radius:5px;">颜色已下架</div>
                           <div id="colorStockout" style="display:none ; background:#666; border-radius:5px;">颜色缺货</div>
                           </div>
-                          <div style="float:left; width:229px; height:117px;"><a href="http://activity.4inlook.com/weservice" target="_blank"><img src="http://image.meimumeijia.com/anyeye/www/product/QR_code.jpg"></a></div>
+                          <div style="float:left; width:229px; height:117px;">
+
+                            <!-- #BeginLibraryItem "/library/qrcode_ad.lbi" --><!-- #EndLibraryItem -->
+                          </div>
                         </div>
                     </div>
                 <!-- {/if} -->

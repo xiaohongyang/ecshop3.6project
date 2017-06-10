@@ -261,7 +261,22 @@ class Goods extends BaseModel
 //            $current_price = UserRank::getMemberRankPriceByGid($product);
 //            return self::formatBody(['product' => array_merge($data->toArray(), ['current_price' => $current_price])]);
 //        }
-        return self::formatBody(['product' => $data->toArray()]);
+
+        $qrcodeList = Ad::where('position_id',20)->get()->toArray();
+        if(is_array($qrcodeList) && count($qrcodeList)) {
+
+            foreach ($qrcodeList as $k=>$row) {
+                $src = (strpos($row['ad_code'], 'http://') === false && strpos($row['ad_code'], 'https://') === false) ?
+                    "/data" . "/afficheimg/$row[ad_code]" : $row['ad_code'];
+
+                $qrcodeList[$k]['ad_code'] = $src;
+            }
+        }
+
+        $data = $data->toArray();
+        $data['qrcode_list'] = $qrcodeList;
+
+        return self::formatBody(['product' => $data]);
     }
 
 

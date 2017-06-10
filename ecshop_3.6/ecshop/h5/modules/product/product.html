@@ -38,6 +38,15 @@
             </div>
         </div>
 
+        <div class="qrcode-list" style="height: 117px; margin-top:10px; margin-bottom: 10px; ">
+            <ul>
+                <li ng-repeat="code in product.qrcode_list" style="float: left;">
+                    <a href="{{code.ad_link}}" target="_blank"  ng-if="code.ad_link"><img src="{{code.ad_code}}" alt=""></a>
+                    <a href="javascript:void(0)" ng-if="! code.ad_link" style="margin-right: 10px;"><img src="{{code.ad_code}}" alt="" ></a>
+                </li>
+            </ul>
+        </div>
+        
         <!-- Attr -->
         <div class="product-attr" ng-if="isLoaded && product && product.properties && product.properties.length && product.good_stock">
             <div class="attr-group" ng-repeat="property in product.properties track by $index">

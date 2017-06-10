@@ -195,6 +195,11 @@ function insert_ads($arr)
     static $static_res = NULL;
 
     $time = gmtime();
+    if (!$arr['order'] && $arr['num']) {
+        $order = 'ORDER BY rnd LIMIT ' . $arr['num'];
+    } else {
+        $order = 'ORDER BY ' .$arr['order']. ' LIMIT ' . $arr['num'];;
+    }
     if (!empty($arr['num']) && $arr['num'] != 1)
     {
         $sql  = 'SELECT a.ad_id, a.position_id, a.media_type, a.ad_link, a.ad_code, a.ad_name, p.ad_width, ' .
@@ -203,7 +208,7 @@ function insert_ads($arr)
                 'LEFT JOIN ' . $GLOBALS['ecs']->table('ad_position') . ' AS p ON a.position_id = p.position_id ' .
                 "WHERE enabled = 1 AND start_time <= '" . $time . "' AND end_time >= '" . $time . "' ".
                     "AND a.position_id = '" . $arr['id'] . "' " .
-                'ORDER BY rnd LIMIT ' . $arr['num'];
+                $order;
         $res = $GLOBALS['db']->GetAll($sql);
     }
     else
@@ -236,7 +241,9 @@ function insert_ads($arr)
             case 0: // 图片广告
                 $src = (strpos($row['ad_code'], 'http://') === false && strpos($row['ad_code'], 'https://') === false) ?
                         DATA_DIR . "/afficheimg/$row[ad_code]" : $row['ad_code'];
-                $ads[] = "<a href='affiche.php?ad_id=$row[ad_id]&amp;uri=" .urlencode($row["ad_link"]). "'
+
+                $link = $row["ad_link"] ? "'affiche.php?ad_id=$row[ad_id]&amp;uri=" .urlencode($row["ad_link"]). "'" : "'javascript:void(0)' style='cursor: default'";
+                $ads[] = "<a href={$link}
                 target='_blank'><img src='$src' width='" .$row['ad_width']. "' height='$row[ad_height]'
                 border='0' /></a>";
                 break;
