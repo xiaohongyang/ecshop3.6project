@@ -21,12 +21,25 @@ class Keywords extends BaseModel
                                         ->orderBy('count', 'DESC')
                                         ->limit(10)
                                         ->get();
-
         $data = [];
         foreach ($goods_search_history as $key => $value) {
             $data[$key]['type'] = 1;
             $data[$key]['content'] = $value->keyword;
         }
+
+        $goods_search_history = ShopConfig::findByCode( 'search_keywords');
+        $data = [];
+        $keywords = "";
+
+        $arr = explode(',', $goods_search_history);
+        if(count($arr)){
+            foreach ($arr as $key=>$item) {
+                $data[$key]['type'] = 1;
+                $data[$key]['content'] = $item;
+            }
+        }
+
+
         return self::formatBody(['keywords' => $data]);
     }
 
