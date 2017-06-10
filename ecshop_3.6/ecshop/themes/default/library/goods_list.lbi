@@ -33,8 +33,8 @@
     <div class="goodsList">
       <!--{foreach name=goods_list from=$goods_list item=goods}-->
       <ul class="clearfix bgcolor"
-        
-      
+
+
       <!--{if $smarty.foreach.goods_list.index mod 2 eq 0}-->
       id=""
       <!--{else}-->
@@ -74,7 +74,15 @@
       <div class="clearfix goodsBox" style="border:none;">
         <!--{foreach from=$goods_list item=goods}-->
         <!-- {if $goods.goods_id} -->
-        <div class="goodsItem"> <a href="{$goods.url}" class="img-box"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" class="goodsimg" /></a>
+        <div class="goodsItem"> <a href="{$goods.url}" class="img-box">
+            {if $goods.original_img}
+                 <img src="{$goods.original_img}" class="goodsimg" />
+
+            {else}
+                  <img src="{$goods.goods_thumb}" class="goodsimg" />
+
+            {/if}
+        </a>
         <div class="goods-info">
             <div class="goods-title"><a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a></div>
             <div class="goods-ms">
@@ -84,7 +92,7 @@
               <div class="shop_s">{$goods.shop_price}</div>
               <a class="price-btn" href="{$goods.url}">立即购买</a>
             </div>
-            
+
         </div>
         </div>
         <!--{/if}-->
@@ -95,8 +103,8 @@
     <div class="goodsList">
       <!--{foreach from=$goods_list item=goods}-->
       <ul class="clearfix bgcolor"
-        
-      
+
+
       <!--{if $smarty.foreach.goods_list.index mod 2 eq 0}-->
       id=""
       <!--{else}-->
