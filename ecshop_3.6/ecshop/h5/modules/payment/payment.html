@@ -6,7 +6,7 @@
             <div class="button-text">返回</div>
         </div>
         <div class="navbar-title">
-            收银台
+            <!--收银台-->
         </div>
         <div class="navbar-right">
         </div>
@@ -14,8 +14,12 @@
 
     <div class="app-content">
         <div class="payment-header">
-            <div class="header-title">订单 #{{paymentModel.order.sn}}，请您尽快付款。</div>
-            <div class="header-total">合计：<em>￥{{paymentModel.order.total || '0.00'}}</em></div>
+
+            <!--<div class="header-title">订单 #{{paymentModel.order.sn}}，请您尽快付款。</div>
+            <div class="header-total">合计：<em>￥{{paymentModel.order.total || '0.00'}}</em></div>-->
+
+            <div class="header-title">感谢您在本店购物！</div>
+            <div class="header-total">您的订单已提交成功，请记住您的订单号: <em>#{{paymentModel.order.sn}}</em></div>
         </div>
         <div class="payment-list" ng-if="paymentModel.isLoaded">
             <div class="list-item " ng-class="{active: isSelected(payment)}" ng-repeat="payment in paymentModel.types track by $index" ng-click="touchSelect(payment)">
