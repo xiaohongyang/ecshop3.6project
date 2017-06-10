@@ -140,7 +140,7 @@ class Attribute extends BaseModel {
 
     public function getAttrsAttribute()
     {
-        return GoodsAttr::where('goods_id',$this->pivot->goods_id)->where('attr_id',$this->pivot->attr_id)->get()->toArray();
+        return GoodsAttr::where('goods_id',$this->pivot->goods_id)->where('attr_id',$this->pivot->attr_id)->orderBy('attr_value')->get()->toArray();
     }
 
 
