@@ -1690,7 +1690,9 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
+    margin-left:11.5%;
+    margin-right: auto;
     max-width: 100%;
     height: 100%;
     background-color: #ffffff;
