@@ -4089,3 +4089,32 @@ h3.border span,
   padding-top: 0px;
 }
 
+
+
+
+
+#goodsInfo .gallery li img{
+  width: 64px;
+  height: 84px;
+  max-width: 64px;
+  max-height: 84px;
+}
+
+
+#goodsInfo .gallery li{
+  width: 64px;
+  height: 88px;
+  margin-right: 5px;
+}
+
+#goodsInfo .gallery li a{
+  width: 64px;
+  height: 84px;
+  cursor: default;
+  border: 2px solid #fff;
+
+}
+
+#goodsInfo .gallery li a.hover{
+  border: 2px solid #fe0c7c;
+}
