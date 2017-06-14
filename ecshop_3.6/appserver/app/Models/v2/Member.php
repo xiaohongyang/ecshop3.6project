@@ -162,7 +162,8 @@ class Member extends BaseModel {
     {
         extract($attributes);
 
-        if (!Member::where('user_name', $mobile)->first())
+        $user = Member::where('user_name', $mobile)->orWhere('mobile_phone', $mobile)->first();
+        if (!$user)
         {
             if (!self::verifyCode($mobile, $code)) {
                 return self::formatError(self::BAD_REQUEST, trans('message.member.mobile.code.error'));
@@ -806,6 +807,8 @@ class Member extends BaseModel {
 
             $model = self::where('email', $username)->first();
 
+        } else if($type == 'mobile') {
+            $model = self::where('mobile_phone', $username)->orWhere('user_name', $username)->first();
         } else {
 
             $model = self::where('user_name', $username)->first();

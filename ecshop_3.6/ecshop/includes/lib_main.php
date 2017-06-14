@@ -131,6 +131,16 @@ function get_user_info($id=0)
 
     return $user;
 }
+
+function get_user_info_by_username_or_mobile($usernameOrMobile)
+{
+
+    $sql  = 'SELECT u.user_id, u.email, u.user_name, u.user_money, u.pay_points'.
+            ' FROM ' .$GLOBALS['ecs']->table('users'). ' AS u ' .
+            " WHERE u.user_name = '$usernameOrMobile' or u.mobile_phone = '$usernameOrMobile'";
+    $user = $GLOBALS['db']->getRow($sql);
+    return $user;
+}
 /**
  * 取得当前位置和页面标题
  *

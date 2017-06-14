@@ -6,9 +6,10 @@
         <div id="demo">
           <div id="demo1" style="float:left">
             <ul>
+
              <!-- {foreach from=$pictures item=picture key=key}-->
             <!--<li><a href="gallery.php?id={$id}&amp;img={$picture.img_id}" target="_blank"><img src="{if $picture.thumb_url}{$picture.thumb_url}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>-->
-            <li><a href="javascript:void(0)" {if $key==0}class="hover"{/if}  target="_blank"><img onclick="$(this).closest('ul').find('.hover').removeClass('hover'); $(this).closest('a').addClass('hover'); document.getElementById('goodsImage').src=this.src" src="{if $picture.original_img}{$picture.original_img}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></a>
+            <li><span href="javascript:void(0)" {if $key==0}class="hover"{/if}  target="_blank"><img onclick="$(this).closest('ul').find('.hover').removeClass('hover'); $(this).closest('span').addClass('hover'); document.getElementById('goodsImage').src=this.src" src="{if $picture.original_img}{$picture.original_img}{else}{$picture.img_url}{/if}" alt="{$goods.goods_name}" class="B_blue" /></span>
             </li>
             <!--{/foreach}-->
             </ul>

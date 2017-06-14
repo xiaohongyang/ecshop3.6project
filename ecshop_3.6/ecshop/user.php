@@ -183,6 +183,9 @@ elseif ($action == 'act_register')
             show_message($_LANG['passwd_balnk']);
         }
 
+        if(mobile_phone_registered($other['mobile_phone'])) {
+            show_message("手机号已存在!");
+        }
 
         //短信验证码检查
         if(preg_match("/^1[34578]{1}\d{9}$/",$username)){
@@ -374,6 +377,10 @@ elseif ($action == 'act_login')
     $password = isset($_POST['password']) ? trim($_POST['password']) : '';
     $back_act = isset($_POST['back_act']) ? trim($_POST['back_act']) : '';
 
+    if(strlen(trim($username))) {
+        $tmpUserInfo = get_user_info_by_username_or_mobile($username);
+        $username = $tmpUserInfo['user_name'];
+    }
 
     $captcha = intval($_CFG['captcha']);
     if (($captcha & CAPTCHA_LOGIN) && (!($captcha & CAPTCHA_LOGIN_FAIL) || (($captcha & CAPTCHA_LOGIN_FAIL) && $_SESSION['login_fail'] > 2)) && gd_version() > 0)

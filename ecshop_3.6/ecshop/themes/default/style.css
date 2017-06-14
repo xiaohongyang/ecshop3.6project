@@ -4107,14 +4107,16 @@ h3.border span,
   margin-right: 5px;
 }
 
-#goodsInfo .gallery li a{
+#goodsInfo .gallery li span{
   width: 64px;
   height: 84px;
   cursor: default;
   border: 2px solid #fff;
+  display: inline-block;
 
 }
 
-#goodsInfo .gallery li a.hover{
+#goodsInfo .gallery li span.hover{
   border: 2px solid #fe0c7c;
 }
+

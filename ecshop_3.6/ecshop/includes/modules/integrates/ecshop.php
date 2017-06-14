@@ -112,7 +112,19 @@ class ecshop extends integrate
 			$ec_salt=$row['ec_salt'];
             if (empty($row))
             {
-                return 0;
+
+                $sql = "SELECT user_id,user_name, password, salt,ec_salt " .
+                    " FROM " . $this->table($this->user_table).
+                    " WHERE mobile_phone='$post_username'";
+                $row = $this->db->getRow($sql);
+                $ec_salt=$row['ec_salt'];
+
+                if(empty($row))
+
+                    return 0;
+                else{
+                    $post_username = $row['user_name'];
+                }
             }
 
             if (empty($row['salt']))

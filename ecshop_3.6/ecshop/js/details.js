@@ -8,6 +8,7 @@ Cart.hideCartTip = function(){
 }
 
 $(function(){
+    $('.imgInfo > a > img').attr('src',$('#demo1').find('.hover').find('img').attr('src'))
     $("#right-degrees li").each(function () {
         /*$(this).attr("degree", $(this).text()); // 把度数存到属性里
         //if ($(this).text() == Math.abs(color.skus[i].degree)) {

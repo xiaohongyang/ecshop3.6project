@@ -116,7 +116,9 @@ function reg(str){
                     </li>
                     <li>
                         <span>本地价  ：</span>
-                        <span>{$goods.shop_price}</span>
+                        <span style="    color: #fe0c7c;
+                                         font-size: 18px;
+                                         font-weight: bold;">{$goods.shop_price}</span>
                     </li>
 
                 </ul>

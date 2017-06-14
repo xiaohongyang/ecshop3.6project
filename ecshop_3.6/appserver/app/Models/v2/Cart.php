@@ -794,9 +794,9 @@ class Cart extends BaseModel
     public function getPriceAttribute()
     {
         $property = explode(',', $this->goods_attr_id);
-        $property_price         = GoodsAttr::property_price($property);
+        $property_price  = GoodsAttr::property_price($property);
         if ($this->goods_attr_id) {
-            $goods_price            = Goods::get_final_price($this->goods_id, 1, true, $property);//带属性 物品单价
+            $goods_price  = Goods::get_final_price($this->goods_id, 1, true, $property);    //带属性 物品单价
             return $goods_price;
         }
         return Goods::get_final_price($this->goods_id, 1, true, $property);

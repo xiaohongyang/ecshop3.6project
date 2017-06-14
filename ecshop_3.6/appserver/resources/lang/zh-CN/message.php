@@ -21,7 +21,7 @@ return [
     ],
     'member' => [
         'created'  => '账号创建成功',
-        'exists'   => '用户名或邮箱已经存在',
+        'exists'   => '用户名或手机已经存在',
         'password' => [
             'updated'   => '密码更新成功',
             'reset'      => '密码修改链接已发送至 :email',

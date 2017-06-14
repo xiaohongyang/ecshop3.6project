@@ -62,6 +62,12 @@ function register($username, $password, $email, $other = array())
         }
     }
 
+    if(mobile_phone_registered($other['mobile_phone'])){
+
+        $GLOBALS['err']->add(sprintf($GLOBALS['_LANG']['mobile_phone_invalid'], "手机号已存在"));
+        return false;
+    }
+
     if ($GLOBALS['err']->error_no > 0)
     {
         return false;
@@ -398,6 +404,24 @@ function admin_registered( $adminname )
 {
     $res = $GLOBALS['db']->getOne("SELECT COUNT(*) FROM " . $GLOBALS['ecs']->table('admin_user') .
                                   " WHERE user_name = '$adminname'");
+    return $res;
+}
+
+/**
+ * 判断手机号用户名是否存在
+ * @param   string      $adminname 超级管理员用户名
+ * @return  boolean
+ */
+function mobile_phone_registered( $mobilePhone )
+{
+    $res = $GLOBALS['db']->getOne("SELECT COUNT(*) FROM " . $GLOBALS['ecs']->table('users') .
+                                  " WHERE mobile_phone = '$mobilePhone'");
+    return $res;
+}
+
+function get_user_info_by_login($nameOrMobile) {
+    $res = $GLOBALS['db']->getOne("SELECT COUNT(*) FROM " . $GLOBALS['ecs']->table('users') .
+        " WHERE mobile_phone = '$nameOrMobile' or user_name = '$nameOrMobile'");
     return $res;
 }
 
